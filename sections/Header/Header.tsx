@@ -23,8 +23,8 @@ export default function Header(props: Props) {
   };
 
   return (
-    <header class="flex items-center justify-between lg:px-[2vw] lg:py-[1vw] p-[6vw] bg-white fixed w-full">
-      <a href={linkLogo} class="relative z-10">
+    <header class="flex items-center justify-between lg:px-[2vw] lg:py-[1vw] p-[6vw] bg-white fixed w-full z-10">
+      <a href={linkLogo} class="relative z-20">
         <figure>
           <Image src={logo || ""} width={139.84} height={72.99} alt={alt} />
         </figure>
