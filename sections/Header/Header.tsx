@@ -41,7 +41,7 @@ export default function Header(props: Props) {
             <a
               href={link.url}
               class={`text-[#174b28] lg:text-[18px] text-[26px] lg:m-0 mx-[5vw] my-[1.3vw] font-medium leading-8 py-[1.8px] relative left-0 ${
-                menuOpen ? "leading-[26px]" : ""
+                menuOpen ? "leading-[26px] animation-transition-up" : ""
               }`}
             >
               {link.label}
