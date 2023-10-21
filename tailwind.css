@@ -3,7 +3,6 @@
 @tailwind utilities;
 
 @layer base {
-
   /* Allow changing font family via CMS */
   html {
     font-family: var(--font-family);
@@ -28,6 +27,11 @@
   .no-scroll {
     overflow: hidden;
     height: 100vh;
+  }
+
+  .animation-hamburger{
+    transition: transform 250ms cubic-bezier(.2,.6,.3,1),width 250ms cubic-bezier(.2,.6,.3,1);
+    will-change: transform,width;
   }
 }
 
