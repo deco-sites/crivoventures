@@ -11,7 +11,7 @@ export interface Props {
 export default function Main(props: Props) {
   const { title, image, alt } = props;
   return (
-    <div class="max-w-[1200px] mx-auto flex md:flex-row flex-col md:justify-between items-center pb-[3.3vmax] lg:top-[101.766px] top-[145.721px] relative z-0 md:pl-[40px]">
+    <div class="max-w-[1200px] mx-auto flex md:flex-row flex-col md:justify-between items-center pb-[3.3vmax] lg:pt-[101.766px] pt-[145.721px] z-0 md:pl-[40px]">
       <h3 class="text-[#174b28] md:text-[33px] text-[25.8327px] font-bold md:max-w-[342.15px] md:px-0 px-[17.13%] md:leading-[43.9824px] leading-[26.4331px]">
         {title}
       </h3>
