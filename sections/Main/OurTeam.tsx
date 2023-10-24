@@ -14,14 +14,18 @@ export interface Content {
   label: string;
   about: HTML;
 }
+
 export default function OurTeam(props: Props) {
   const { title, description, tab } = props;
   return (
-    <section class="max-w-[1200px] mx-auto px-[40px]">
+    <section class="max-w-[1200px] mx-auto md:pl-[40px] px-[20px] py-[6.6vmax]">
       <div class="flex flex-col">
-        <HTMLRenderer html={title} class="md:text-[33px] text-[19.6145px]" />
+        <HTMLRenderer
+          html={title}
+          class="md:text-[33px] text-[23.0073px] md:absolute relative md:pb-0 pb-2 max-w-[443.05px]"
+        />
         <div class="grid md:grid-cols-2 grid-cols-1 items-center md:gap-x-[112px]">
-          <p class="text-[#174b28] md:text-[18px]">{description}</p>
+          <p class="text-[#174b28] md:text-[18px] leading-[32.4px] text-justify max-w-[443.05px]">{description}</p>
           <div class="flex flex-col">
             {tab?.map((item) => {
               return (
@@ -30,8 +34,9 @@ export default function OurTeam(props: Props) {
                     <p class="text-[#174b28] font-bold md:text-[24px] text-[17.3073px]">
                       {item.label}
                     </p>
-                    <span class="flex-none text-[24px] font-bold text-[#d1734c]">
-                      +
+                    <span class="flex-none bg-[#d1734c] w-[23.99px] h-[2.99px]">
+                      <span class="flex-none bg-[#d1734c] open-sign w-[23.99px] h-[2.99px] flex">
+                      </span>
                     </span>
                   </summary>
                   <HTMLRenderer

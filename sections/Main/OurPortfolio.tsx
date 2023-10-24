@@ -18,7 +18,7 @@ export default function OurPortfolio(props: Props) {
   const { title, logo } = props;
 
   return (
-    <div class="max-w-[1200px] mx-auto py-[6.6vmax] relative lg:pt-[101.766px] pt-[145.721px] px-[20px]">
+    <div class="max-w-[1200px] mx-auto py-[6.6vmax] relative lg:pt-[101.766px] pt-[145.721px] px-[20px] md:mb-[25.79px]">
       <h3 class="text-[#d1734c] md:text-[33px] text-[24.4909px] font-bold mb-[39.61px] pl-[20px]">
         {title}
       </h3>
