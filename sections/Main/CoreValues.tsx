@@ -1,13 +1,14 @@
 import HTMLRenderer from "deco-sites/std/components/HTMLRenderer.tsx";
 import type { HTML } from "deco-sites/std/components/types.ts";
+import type { Image as LiveImage } from "deco-sites/std/components/types.ts";
+import Image from "deco-sites/std/components/Image.tsx";
 
 export interface Props {
   title: HTML;
-  /**
-   * @format textarea
-   */
-  description?: string;
+  description: HTML;
   accordion?: Content[];
+  image: LiveImage;
+  alt?: string;
 }
 
 export interface Content {
@@ -15,20 +16,23 @@ export interface Content {
   about: HTML;
 }
 
-export default function OurTeam(props: Props) {
-  const { title, description, accordion } = props;
+export default function CoreValues(props: Props) {
+  const { title, description, accordion, image, alt } = props;
   return (
-    <section class="max-w-[1200px] mx-auto md:pl-[40px] px-[20px] py-[6.6vmax]">
+    <section class="max-w-[1200px] mx-auto md:pl-[40px] md:pr-0 px-[20px] py-[6.6vmax] mt-[25.79px]">
       <div class="flex flex-col">
-        <HTMLRenderer
-          html={title}
-          class="md:text-[33px] text-[23.0073px] md:absolute relative md:pb-0 pb-2 max-w-[443.05px]"
-        />
-        <div class="grid md:grid-cols-2 grid-cols-1 items-center md:gap-x-[112px]">
-          <p class="text-[#174b28] md:text-[18px] leading-[32.4px] text-justify max-w-[443.05px]">
-            {description}
-          </p>
-          <div class="flex flex-col">
+        <div class="flex flex-col max-w-[443.05px]">
+          <HTMLRenderer
+            html={title}
+            class="md:text-[33px] text-[24.3927px] pb-[18.31px]"
+          />
+          <HTMLRenderer
+            html={description}
+            class="md:text-[33px] text-[24.3927px] leading-[32.4px] text-justify"
+          />
+        </div>
+        <div class="flex md:flex-row flex-col-reverse justify-between items-center md:gap-x-[112px]">
+          <div class="flex flex-col w-full">
             {accordion?.map((item) => {
               return (
                 <details class="border-b-[3px] border-solid border-[#174b28]">
@@ -49,6 +53,9 @@ export default function OurTeam(props: Props) {
               );
             })}
           </div>
+          <figure class="w-full">
+            <Image src={image} width={549} height={549} alt={alt} />
+          </figure>
         </div>
       </div>
     </section>
