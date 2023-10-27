@@ -28,7 +28,7 @@ export default function CoreValues(props: Props) {
           />
           <HTMLRenderer
             html={description}
-            class="md:text-[33px] text-[24.3927px] leading-[32.4px] text-justify"
+            class="md:text-[33px] text-[24.3927px] leading-[29.2247px] text-justify mb-[40px] md:leading-[43.9824px]"
           />
         </div>
         <div class="flex md:flex-row flex-col-reverse justify-between items-center md:gap-x-[112px]">
@@ -53,8 +53,14 @@ export default function CoreValues(props: Props) {
               );
             })}
           </div>
-          <figure class="w-full">
-            <Image src={image} width={549} height={549} alt={alt} />
+          <figure class="w-full md:relative md:bottom-[80px]">
+            <Image
+              src={image}
+              width={549}
+              height={549}
+              class="object-cover md:max-h-[410px] md:object-[0_-50px]"
+              alt={alt}
+            />
           </figure>
         </div>
       </div>
