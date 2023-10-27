@@ -53,12 +53,12 @@ export default function CoreValues(props: Props) {
               );
             })}
           </div>
-          <figure class="w-full md:relative md:bottom-[80px]">
+          <figure class="w-full flex justify-center md:relative md:bottom-[80px]">
             <Image
               src={image}
               width={549}
               height={549}
-              class="object-cover md:max-h-[410px] md:object-[0_-50px]"
+              class="object-cover md:max-h-[420px]"
               alt={alt}
             />
           </figure>

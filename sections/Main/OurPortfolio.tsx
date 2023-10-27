@@ -25,7 +25,7 @@ export default function OurPortfolio(props: Props) {
       <div class="grid md:grid-cols-4 grid-cols-2 items-center md:gap-y-[40px] md:gap-x-[100px] md:pl-[20px]">
         {logo?.map((item) => (
           <a href={item.url} class="md:h-full h-[131.948px] flex items-center">
-            <figure>
+            <figure class="md:w-auto w-full">
               <Image
                 src={item?.image}
                 class="mx-auto"
