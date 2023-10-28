@@ -51,7 +51,13 @@ export default function Footer(props: Props) {
             ))}
         </div>
         <figure class="md:py-[3.3vmax] pb-[3.3vmax] md:mt-[3.3vmax] absolute right-0 md:w-auto w-[70%] md:h-auto h-full">
-          <Image src={image} width={311} height={311} class="md:relative absolute right-0" alt={alt} />
+          <Image
+            src={image}
+            width={311}
+            height={311}
+            class="md:relative absolute right-0"
+            alt={alt}
+          />
         </figure>
       </div>
     </footer>
