@@ -21,8 +21,8 @@ export default function Footer(props: Props) {
   const { contact, image, alt, socialMedia } = props;
 
   return (
-    <footer class="w-full relative">
-      <div class="flex justify-between items-center max-w-[1200px] w-full mx-auto md:pl-[40px] px-[20px]">
+    <footer class="w-full relative pt-[3.3vmax] mt-[30.01px]">
+      <div class="grid grid-cols-2 items-center max-w-[1200px] w-full mx-auto md:pl-[40px] pl-[20px]">
         <div class="flex flex-col">
           {contact.title && (
             <div>
@@ -32,7 +32,7 @@ export default function Footer(props: Props) {
               />
               <HTMLRenderer
                 html={contact.text}
-                class="md:text-[24px] text-[18.5945px] pb-[37.79px]"
+                class="md:text-[24px] text-[19.7673px] pb-[37.79px]"
               />
             </div>
           )}
@@ -50,8 +50,14 @@ export default function Footer(props: Props) {
               </a>
             ))}
         </div>
-        <figure class="absolute right-0 py-[3.3vmax] mt-[3.3vmax]">
-          <Image src={image} width={311} height={311} alt={alt} />
+        <figure class="md:py-[3.3vmax] pb-[3.3vmax] md:mt-[3.3vmax] absolute right-0 md:w-auto w-[70%] md:h-auto h-full">
+          <Image
+            src={image}
+            width={311}
+            height={311}
+            class="md:relative absolute right-0"
+            alt={alt}
+          />
         </figure>
       </div>
     </footer>
