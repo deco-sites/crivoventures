@@ -7,11 +7,12 @@ import * as $$$$1 from "./routes/_app.tsx";
 import * as $$$$$0 from "./islands/Header.tsx";
 import * as $$$$$$$$0 from "./sections/Footer/Footer.tsx";
 import * as $$$$$$$$1 from "./sections/Header/Header.tsx";
-import * as $$$$$$$$2 from "./sections/Main/CoreValues.tsx";
-import * as $$$$$$$$3 from "./sections/Main/Main.tsx";
-import * as $$$$$$$$4 from "./sections/Main/OurPortfolio.tsx";
-import * as $$$$$$$$5 from "./sections/Main/OurTeam.tsx";
-import * as $$$$$$$$6 from "./sections/Theme.tsx";
+import * as $$$$$$$$2 from "./sections/Main/About.tsx";
+import * as $$$$$$$$3 from "./sections/Main/CoreValues.tsx";
+import * as $$$$$$$$4 from "./sections/Main/Main.tsx";
+import * as $$$$$$$$5 from "./sections/Main/OurPortfolio.tsx";
+import * as $$$$$$$$6 from "./sections/Main/OurTeam.tsx";
+import * as $$$$$$$$7 from "./sections/Theme.tsx";
 import * as i1$0 from "$live/loaders/secret.ts";
 import * as i1$1 from "$live/loaders/state.ts";
 import * as i1$2 from "$live/loaders/workflows/events.ts";
@@ -168,11 +169,12 @@ const manifest = {
     "$live/sections/UseSlot.tsx": i1$$$$4,
     "deco-sites/crivoventures/sections/Footer/Footer.tsx": $$$$$$$$0,
     "deco-sites/crivoventures/sections/Header/Header.tsx": $$$$$$$$1,
-    "deco-sites/crivoventures/sections/Main/CoreValues.tsx": $$$$$$$$2,
-    "deco-sites/crivoventures/sections/Main/Main.tsx": $$$$$$$$3,
-    "deco-sites/crivoventures/sections/Main/OurPortfolio.tsx": $$$$$$$$4,
-    "deco-sites/crivoventures/sections/Main/OurTeam.tsx": $$$$$$$$5,
-    "deco-sites/crivoventures/sections/Theme.tsx": $$$$$$$$6,
+    "deco-sites/crivoventures/sections/Main/About.tsx": $$$$$$$$2,
+    "deco-sites/crivoventures/sections/Main/CoreValues.tsx": $$$$$$$$3,
+    "deco-sites/crivoventures/sections/Main/Main.tsx": $$$$$$$$4,
+    "deco-sites/crivoventures/sections/Main/OurPortfolio.tsx": $$$$$$$$5,
+    "deco-sites/crivoventures/sections/Main/OurTeam.tsx": $$$$$$$$6,
+    "deco-sites/crivoventures/sections/Theme.tsx": $$$$$$$$7,
     "deco-sites/std/sections/Analytics.tsx": i2$$$$$0,
     "deco-sites/std/sections/configButterCMS.global.tsx": i2$$$$$1,
     "deco-sites/std/sections/configLinxImpulse.global.tsx": i2$$$$$2,

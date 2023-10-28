@@ -58,7 +58,12 @@
   details:not([open]) summary .open-sign {
     transform: rotate(88deg);
   }
-  
+
+  .md-max {
+    @media (max-width: 1024px) {
+      width: 50%;
+    }
+  }
 }
 
 @layer utilities {
