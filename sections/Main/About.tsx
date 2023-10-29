@@ -1,23 +1,23 @@
-import type { ImageWidget } from "apps/admin/widgets.ts";
-import Image from "apps/website/components/Image.tsx";
+import HTMLRenderer from "deco-sites/std/components/HTMLRenderer.tsx";
+import type { HTML } from "deco-sites/std/components/types.ts";
+import type { Image as LiveImage } from "deco-sites/std/components/types.ts";
+import Image from "deco-sites/std/components/Image.tsx";
 
 export interface Props {
   logo: {
-    src: ImageWidget;
+    src: LiveImage;
     width: number;
     height: number;
     label?: string;
   };
   image: {
-    src: ImageWidget;
+    src: LiveImage;
     width: number;
     height: number;
     label?: string;
   };
-  /** @format html */
-  details: string;
-  /** @format html */
-  about: string;
+  details: HTML;
+  about: HTML;
   link: {
     href?: string;
     label?: string;
@@ -40,9 +40,9 @@ export default function About(props: Props) {
                 alt={logo.label}
               />
             </figure>
-            <div
+            <HTMLRenderer
+              html={details}
               class="md:text-[18px] text-[15.7691px] md:pt-[30px] pt-[40px] md:pb-0 pb-[20px] leading-[1.8em] underline-offset-[0.2em] gap-[15px] flex flex-col"
-              dangerouslySetInnerHTML={{ __html: details }}
             />
           </div>
           <figure class="md:w-1/2 md:mb-0 lg:px-0 md:pr-[50px] px-0">
@@ -53,6 +53,7 @@ export default function About(props: Props) {
               height={image.height}
               alt={image.label}
             />
+            
           </figure>
         </div>
         <hr class="bg-[#174b28] h-[4px] my-[9px] lg:mx-0 md:mx-[50px] mx-[20px]" />
@@ -64,9 +65,9 @@ export default function About(props: Props) {
         >
           {link?.label}
         </a>
-        <div
+        <HTMLRenderer
+          html={about}
           class="md:text-[18px] text-[15.7691px] py-[30px] text-justify"
-          dangerouslySetInnerHTML={{ __html: about }}
         />
         <hr class="bg-[#174b28] h-[4px] my-[9px] lg:mx-0 md:mx-[50px] mx-[20px]" />
         <a

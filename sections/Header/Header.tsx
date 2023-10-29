@@ -1,11 +1,11 @@
-import type { ImageWidget } from "apps/admin/widgets.ts";
-import Image from "apps/website/components/Image.tsx";
+import type { Image as LiveImage } from "deco-sites/std/components/types.ts";
+import Image from "deco-sites/std/components/Image.tsx";
 import { useState } from "preact/hooks";
 import useTextElementOpacity from "../../hooks/useTextElement.tsx";
 
 export interface Props {
   linkLogo?: string;
-  logo: ImageWidget;
+  logo: LiveImage;
   alt?: string;
   hasMenu?: boolean;
   links?: Link[];

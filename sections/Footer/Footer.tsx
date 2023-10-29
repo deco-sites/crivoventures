@@ -1,24 +1,22 @@
-import type { ImageWidget } from "apps/admin/widgets.ts";
-import Image from "apps/website/components/Image.tsx";
+import HTMLRenderer from "deco-sites/std/components/HTMLRenderer.tsx";
+import type { HTML } from "deco-sites/std/components/types.ts";
+import type { Image as LiveImage } from "deco-sites/std/components/types.ts";
+import Image from "deco-sites/std/components/Image.tsx";
 
 export interface Props {
   /** @description add a text similar to the content of the link's URL in the Header without '#'. */
   id?: string;
-  contact: Contact;
+  contact: {
+    title: HTML;
+    text: HTML;
+  };
   socialMedia?: {
-    image?: ImageWidget;
+    image?: LiveImage;
     label?: string;
     url?: string;
   }[];
-  image: ImageWidget;
+  image: LiveImage;
   alt?: string;
-}
-
-export interface Contact {
-  /** @format html */
-  title: string;
-  /** @format html */
-  text: string;
 }
 
 export default function Footer(props: Props) {
@@ -30,14 +28,13 @@ export default function Footer(props: Props) {
         <div class="flex flex-col">
           {contact.title && (
             <div>
-              <div
-                class="md:text-[33px] text-[24.3927px] pb-[18.31px]"
-                dangerouslySetInnerHTML={{ __html: contact.title }}
+              <HTMLRenderer
+                html={contact.title}
+                class="md:text-[33px] text-[22.1891px] pb-[18.61px]"
               />
-
-              <div
+              <HTMLRenderer
+                html={contact.text}
                 class="md:text-[24px] text-[19.7673px] pb-[37.79px]"
-                dangerouslySetInnerHTML={{ __html: contact.text }}
               />
             </div>
           )}
