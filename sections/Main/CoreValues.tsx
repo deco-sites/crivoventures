@@ -4,6 +4,8 @@ import type { Image as LiveImage } from "deco-sites/std/components/types.ts";
 import Image from "deco-sites/std/components/Image.tsx";
 
 export interface Props {
+  /** @description add a text similar to the content of the link's URL in the Header without '#'. */
+  id?: string;
   title: HTML;
   description: HTML;
   accordion?: Content[];
@@ -17,9 +19,12 @@ export interface Content {
 }
 
 export default function CoreValues(props: Props) {
-  const { title, description, accordion, image, alt } = props;
+  const { id, title, description, accordion, image, alt } = props;
   return (
-    <section class="max-w-[1200px] mx-auto md:pl-[40px] md:pr-0 px-[20px] py-[6.6vmax] mt-[25.79px]">
+    <section
+      class="max-w-[1200px] mx-auto md:pl-[40px] md:pr-0 px-[20px] py-[6.6vmax] mt-[25.79px]"
+      id={id}
+    >
       <div class="flex flex-col">
         <div class="flex flex-col max-w-[443.05px]">
           <HTMLRenderer

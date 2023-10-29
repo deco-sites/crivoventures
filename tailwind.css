@@ -19,6 +19,10 @@
     -moz-appearance: textfield;
     appearance: textfield;
   }
+
+  .font-arial {
+    font-family: Arial, sans-serif; 
+  }
 }
 
 @layer components {
