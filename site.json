@@ -1,0 +1,8 @@
+{
+  "siteId": 2870,
+  "namespace": "deco-sites/crivoventures",
+  "imports": [
+    "$live/live.gen.ts",
+    "deco-sites/std/live.gen.ts"
+  ]
+}

@@ -1,1 +1,1 @@
-export { default } from "../sections/Header/Header.tsx";
+export { default } from "deco-sites/start/sections/Header/Header.tsx";
