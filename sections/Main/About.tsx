@@ -30,7 +30,7 @@ export default function About(props: Props) {
     <div class="max-w-[1098.69px] mx-auto flex flex-col pt-[94.73px]">
       <div class="flex flex-col lg:mt-[50px] md:mt-[105px] mt-[30px]">
         <div class="flex md:flex-row flex-col md:justify-between pb-[50px] md:gap-x-[50px]">
-          <div class="flex flex-col md:w-1/2 lg:px-0 md:pl-[50px] px-[20px]">
+          <div class="flex flex-col md:w-1/2 lg:px-0 md:pl-[50px] px-[20px] justify-between">
             <figure>
               <Image
                 src={logo.src}
@@ -48,7 +48,7 @@ export default function About(props: Props) {
           <figure class="md:w-1/2 md:mb-0 lg:px-0 md:pr-[50px] px-0">
             <Image
               src={image.src}
-              class="max-h-[320px] object-cover w-full h-full"
+              class="object-cover w-full h-full"
               width={image.width}
               height={image.height}
               alt={image.label}
@@ -57,7 +57,7 @@ export default function About(props: Props) {
         </div>
         <hr class="bg-[#174b28] h-[4px] my-[9px] lg:mx-0 md:mx-[50px] mx-[20px]" />
       </div>
-      <div class="lg:px-0 md:px-[50px] px-[20px] pt-[20px] mb-[20px]">
+      <div class="lg:mx-0 md:mx-[50px] mx-[20px] pt-[20px] mb-[20px]">
         <a
           href={link?.href}
           class="font-bold md:text-[18px] text-[16.5891px] text-[#d1734c] underline underline-offset-[0.2em]"
@@ -68,7 +68,7 @@ export default function About(props: Props) {
           html={about}
           class="md:text-[18px] text-[15.7691px] py-[30px] text-justify"
         />
-        <hr class="bg-[#174b28] h-[4px] my-[9px] lg:mx-0 md:mx-[50px] mx-[20px]" />
+        <hr class="bg-[#174b28] h-[4px] my-[9px]" />
         <a
           href={link?.href}
           class="font-bold md:text-[24px] text-[17.3073px] text-[#d1734c] underline underline-offset-[0.2em] pt-[30px]"
