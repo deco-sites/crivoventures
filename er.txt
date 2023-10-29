@@ -1,0 +1,148 @@
+Header:
+
+{
+  "alt": "logo",
+  "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/e0f2ac1e-b0bc-43a2-9d32-88c86c545a71",
+  "links": [
+    {
+      "url": "#portfolio",
+      "label": "our portfolio"
+    },
+    {
+      "url": "#our-team",
+      "label": "our team"
+    },
+    {
+      "url": "#core",
+      "label": "core values"
+    },
+    {
+      "url": "#contact",
+      "label": "contact"
+    }
+  ],
+  "hasMenu": true,
+  "linkLogo": "/",
+  "__resolveType": "deco-sites/start/sections/Header/Header.tsx"
+}
+
+Main:
+
+{
+  "alt": "circle image",
+  "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/013bc0c5-0e16-4ace-bb81-623232183999",
+  "title": "we're looking for bold, ambitious founders who share our vision for a better future in latin america. ",
+  "__resolveType": "deco-sites/start/sections/Main/Main.tsx"
+}
+
+OurPortfolio:
+
+{
+  "id": "portfolio",
+  "logo": [
+    {
+      "url": "/agroforte",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/d8f1e476-7cf1-47e7-8fb1-2b138747720d",
+      "label": "agroforte",
+      "width": 190.8,
+      "height": 85.98
+    },
+    {
+      "url": "/bakerytech",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/2fe3201b-c838-4f62-92c5-2fbef4983958",
+      "label": "bakery tech",
+      "width": 190.8,
+      "height": 98.12
+    },
+    {
+      "url": "/dinerama",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/daed17bd-19fd-43f2-a528-02c0fd7115cd",
+      "label": "dinerama",
+      "width": 241.25,
+      "height": 72.04
+    },
+    {
+      "url": "/falco",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/eefcba2e-7858-42da-b66b-5e6ff41db668",
+      "label": "falco",
+      "width": 190.8,
+      "height": 69.78
+    },
+    {
+      "url": "/gira",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/0d07e43f-05f6-4bfb-aed7-5496711670fc",
+      "label": "gira",
+      "width": 140.35,
+      "height": 64.89
+    },
+    {
+      "url": "/superautor",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/c6c0fd32-952d-46cc-a70c-e5d99f52cd18",
+      "label": "superautor",
+      "width": 140.35,
+      "height": 121.99
+    },
+    {
+      "url": "/zarv",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/8b2653c6-0567-41f1-b1ee-426f9adf2eb6",
+      "label": "zarv",
+      "width": 190.8,
+      "height": 63.26
+    }
+  ],
+  "title": "our portfolio",
+  "__resolveType": "deco-sites/start/sections/Main/OurPortfolio.tsx"
+}
+
+OurTeam:
+
+{
+  "id": "our-team",
+  "title": "<h3 class=\"preFade fadeIn\"><strong><span class=\"sqsrte-text-color--accent\" style=\"color: rgb(209, 115, 76);\" data-mce-style=\"color: rgb(209, 115, 76);\">our team</span> <span style=\"color: rgb(23, 75, 40);\" data-mce-style=\"color: rgb(23, 75, 40);\">is our differential</span></strong></h3>",
+  "accordion": [
+    {
+      "about": "<p class=\"preFade fadeIn\"><span style=\"color: rgb(23, 75, 40);\" data-mce-style=\"color: rgb(23, 75, 40);\">Sergio is a computer engineer who graduated from PUC-RJ. Throughout his career, he has held various positions at companies such as Ipiranga, Atlantic, and Banco Pactual. Notably, Sergio served as the CFO of Grupo Globo, where he also oversaw the investment committee. Under his coordination, Globo Ventures was created, and their portfolio included early investments in companies like Rappi, Hash, IDWall, Buser, Bom Pra Credito, ZAP, Ingresse, and more.</span></p><p class=\"preFade fadeIn\"><br data-mce-bogus=\"1\"></p><p class=\"preFade fadeIn\"><span style=\"color: rgb(23, 75, 40);\" data-mce-style=\"color: rgb(23, 75, 40);\">Sergio played a leading role in the merger process between ZAP Imoveis and Viva Real in 2018, which eventually led to the sale of the merged entity to OLX in 2020. Additionally, Sergio served as a board member for several companies, including NET, ZAP, Orama, Ton (a joint venture with Stone), Enjoei, Cuidai, Ingresse, Buser, and Bom Pra Credito.</span></p><p class=\"preFade fadeIn\"><br data-mce-bogus=\"1\"></p><p class=\"preFade fadeIn\"><span style=\"color: rgb(23, 75, 40);\" data-mce-style=\"color: rgb(23, 75, 40);\">In total, Sergio managed a portfolio of liquid and illiquid assets worth US$3 billion. This portfolio also included investments in 13 private companies with market values ranging from US$15 million to US$6 billion.</span></p><p class=\"preFade fadeIn\"><br><br><span style=\"color: rgb(209, 115, 76);\" data-mce-style=\"color: rgb(209, 115, 76);\"><a href=\"https://www.linkedin.com/in/sergio-marques05/\" target=\"_blank\" rel=\"noopener\" data-mce-href=\"https://www.linkedin.com/in/sergio-marques05/\" style=\"color: rgb(209, 115, 76);\" data-mce-style=\"color: rgb(209, 115, 76);\"><strong>﻿linkedin﻿</strong></a></span></p>",
+      "label": "sergio marques"
+    },
+    {
+      "about": "<p class=\"preFade fadeIn\"><span style=\"color: rgb(23, 75, 40);\" data-mce-style=\"color: rgb(23, 75, 40);\">Andrea has a diverse educational background combining design and business management. She started her career as a designer and shortly after transitioned to the financial markets, where she has made contributions for almost 30 years.</span></p><p class=\"preFade fadeIn\"><br data-mce-bogus=\"1\"></p><p class=\"preFade fadeIn\"><span style=\"color: rgb(23, 75, 40);\" data-mce-style=\"color: rgb(23, 75, 40);\">Her career has spanned various roles, initially gaining experience in offshore funds, private banking and wealth management at BTG Pactual and Banco Icatu.</span></p><p class=\"preFade fadeIn\"><br data-mce-bogus=\"1\"></p><p class=\"preFade fadeIn\"><span style=\"color: rgb(23, 75, 40);\" data-mce-style=\"color: rgb(23, 75, 40);\">Afterward she ventured for nearly two decades as a founding partner of two independent asset management firms in Brazil, Direcional and Paineiras, were she focused on investor relations, product development and compliance.</span></p><p class=\"preFade fadeIn\"><br><br><span style=\"color: rgb(209, 115, 76);\" data-mce-style=\"color: rgb(209, 115, 76);\"><a href=\"https://www.linkedin.com/in/andrea-varella-211332/\" target=\"_blank\" rel=\"noopener\" data-mce-href=\"https://www.linkedin.com/in/andrea-varella-211332/\" data-mce-selected=\"inline-boundary\" style=\"color: rgb(209, 115, 76);\" data-mce-style=\"color: rgb(209, 115, 76);\"><strong>linkedin﻿</strong></a></span></p>",
+      "label": "andrea varella"
+    },
+    {
+      "about": "<p class=\"preFade fadeIn\"><span style=\"color: rgb(23, 75, 40);\" data-mce-style=\"color: rgb(23, 75, 40);\">Isabela graduated from FGV EAESP and studied briefly at Columbia University and LSE. She started her entrepreneurial journey in retail and real estate, connecting online retailers with vacant spaces in São Paulo. Her business thrived, serving over 600 recurring retailers and partnering with Rappi and Stone. Sadly, it had to close due to a fire.</span></p><p class=\"preFade fadeIn\"><span style=\"color: rgb(23, 75, 40);\" data-mce-style=\"color: rgb(23, 75, 40);\"><br data-mce-bogus=\"1\"></span></p><p class=\"preFade fadeIn\"><span style=\"color: rgb(23, 75, 40);\" data-mce-style=\"color: rgb(23, 75, 40);\">Isabela then went to Israel to connect with local venture capital funds and startups. She later returned to São Paulo and successfully launched WeWork Labs in Brazil, expanding to Rio de Janeiro and Belo Horizonte. Labs Brazil became the most profitable in Latin America.</span></p><p class=\"preFade fadeIn\"><span style=\"color: rgb(23, 75, 40);\" data-mce-style=\"color: rgb(23, 75, 40);\"><br data-mce-bogus=\"1\"></span></p><p class=\"preFade fadeIn\"><span style=\"color: rgb(23, 75, 40);\" data-mce-style=\"color: rgb(23, 75, 40);\">Afterward, Isabela joined Fliper, an early-stage startup acquired by XP Inc. She worked on project management, launching IM+, a product resulting from the merger with InfoMoney, a leading investment media company in Brazil.</span><br><br><span style=\"color: rgb(209, 115, 76);\" data-mce-style=\"color: rgb(209, 115, 76);\"><a href=\"https://www.linkedin.com/in/isabela-mac/\" target=\"_blank\" rel=\"noopener\" data-mce-href=\"https://www.linkedin.com/in/isabela-mac/\" data-mce-selected=\"inline-boundary\" style=\"color: rgb(209, 115, 76);\" data-mce-style=\"color: rgb(209, 115, 76);\"><strong>linkedin﻿</strong></a></span></p>",
+      "label": "isabela mac"
+    }
+  ],
+  "description": "We believe that our multidisciplinary approach gives us a unique perspective and allows us to provide valuable insights and resources to our portfolio companies.",
+  "__resolveType": "deco-sites/start/sections/Main/OurTeam.tsx"
+}
+
+
+corevalues:
+
+{
+  "id": "core",
+  "alt": "circle image",
+  "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/a530429c-2a6c-4970-bbf1-91c3f4f24c33",
+  "title": "<h3 class=\"preFade fadeIn\"><span style=\"color: rgb(209, 115, 76);\" data-mce-style=\"color: rgb(209, 115, 76);\"><strong><span class=\"sqsrte-text-color--accent\">core values</span></strong></span></h3>",
+  "accordion": [
+    {
+      "about": "<p class=\"preFade fadeIn\"><span style=\"color: rgb(23, 75, 40);\" data-mce-style=\"color: rgb(23, 75, 40);\">We believe that the future of Latin America lies in the hands of its entrepreneurs. That's why we've created a venture capital fund dedicated to supporting early-stage startups in the region.</span></p><p class=\"preFade fadeIn\"><br data-mce-bogus=\"1\"></p><p class=\"preFade fadeIn\"><span style=\"color: rgb(23, 75, 40);\" data-mce-style=\"color: rgb(23, 75, 40);\">Our mission is to help these founders bring their bold ideas to life and drive innovation that will shape the future of the region.</span></p>",
+      "label": "what we believe in"
+    },
+    {
+      "about": "<p><span style=\"color: rgb(23, 75, 40);\" data-mce-style=\"color: rgb(23, 75, 40);\">At our core, we are founder-centric. We understand the challenges of starting a new venture, and we're here to support entrepreneurs every step of the way. We believe that success is built on strong relationships and trust, and we're committed to being transparent, responsive, and empathetic with our founders. Trust us, we walk the talk.</span></p>",
+      "label": "we are founder-centric"
+    },
+    {
+      "about": "<p><span style=\"color: rgb(23, 75, 40);\" data-mce-style=\"color: rgb(23, 75, 40);\">We're not just investors - we're connectors. We bring together a multidisciplinary team with a wealth of experience and networks across different industries. We're here to help our founders make the right connections and open doors to new opportunities.</span></p>",
+      "label": "we are connectors"
+    },
+    {
+      "about": "<p><span style=\"color: rgb(23, 75, 40);\" data-mce-style=\"color: rgb(23, 75, 40);\">Our team is our biggest differential. We come from diverse backgrounds - but we share a common passion for supporting founders along the way. We believe that our multidisciplinary approach gives us a unique perspective and allows us to provide valuable insights and resources to our portfolio companies.</span></p>",
+      "label": "we are multidisciplinary"
+    }
+  ],
+  "description": "<h3 class=\"preFade fadeIn\"><span style=\"color: rgb(23, 75, 40);\" data-mce-style=\"color: rgb(23, 75, 40);\"><strong>founder-centric </strong></span><br><span style=\"color: rgb(23, 75, 40);\" data-mce-style=\"color: rgb(23, 75, 40);\"><strong>connectors </strong></span><br><span style=\"color: rgb(23, 75, 40);\" data-mce-style=\"color: rgb(23, 75, 40);\"><strong>multidisciplinary approach</strong></span></h3>",
+  "__resolveType": "deco-sites/start/sections/Main/CoreValues.tsx"
+}

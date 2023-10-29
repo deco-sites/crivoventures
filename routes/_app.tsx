@@ -1,31 +1,23 @@
 import { AppProps } from "$fresh/server.ts";
-import GlobalTags from "$store/components/GlobalTags.tsx";
+import { context } from "$live/live.ts";
+import GoogleTagManager from "partytown/integrations/GTM.tsx";
+import GlobalTags from "../components/GlobalTags.tsx";
 import Theme from "../sections/Theme.tsx";
 
-const sw = () =>
-  addEventListener("load", () =>
-    navigator && navigator.serviceWorker &&
-    navigator.serviceWorker.register("/sw.js"));
+const trackingId = "";
 
-function App(props: AppProps) {
+export default function App(props: AppProps) {
   return (
     <>
       {/* Include default fonts and css vars */}
       <Theme />
 
-      {/* Include Icons and manifest */}
       <GlobalTags />
-
-      {/* Rest of Preact tree */}
+      {/* Add Tag Manager script during production only. To test it locally remove the condition */}
+      {!!context.deploymentId && trackingId && (
+        <GoogleTagManager trackingId={trackingId} />
+      )}
       <props.Component />
-
-      {/* Include service worker */}
-      <script
-        type="module"
-        dangerouslySetInnerHTML={{ __html: `(${sw})();` }}
-      />
     </>
   );
 }
-
-export default App;

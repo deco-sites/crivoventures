@@ -1,5 +1,5 @@
-import type { ImageWidget } from "apps/admin/widgets.ts";
-import Image from "apps/website/components/Image.tsx";
+import type { Image as LiveImage } from "deco-sites/std/components/types.ts";
+import Image from "deco-sites/std/components/Image.tsx";
 
 export interface Props {
   /** @description add a text similar to the content of the link's URL in the Header without '#'. */
@@ -9,7 +9,7 @@ export interface Props {
 }
 
 export interface Logo {
-  image: ImageWidget;
+  image: LiveImage;
   width: number;
   height?: number;
   label?: string;

@@ -4,7 +4,15 @@
 /// <reference lib="esnext" />
 
 import { start } from "$fresh/server.ts";
-import config from "./fresh.config.ts";
-import manifest from "./fresh.gen.ts";
+import { $live } from "$live/mod.ts";
+import decoPlugins from "deco-sites/std/plugins/mod.ts";
+import manifest from "deco-sites/crivoventures/live.gen.ts";
+import partytownPlugin from "partytown/mod.ts";
+import site from "./site.json" assert { type: "json" };
 
-await start(manifest, config);
+await start($live(manifest, site), {
+  plugins: [
+    ...decoPlugins(),
+    partytownPlugin(),
+  ],
+});
