@@ -13,6 +13,7 @@ export interface Props {
 
 export interface Link {
   label?: string;
+  /** @description add text with # ➝ example: #core */
   url?: string;
 }
 

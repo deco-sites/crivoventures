@@ -2,6 +2,8 @@ import HTMLRenderer from "deco-sites/std/components/HTMLRenderer.tsx";
 import type { HTML } from "deco-sites/std/components/types.ts";
 
 export interface Props {
+  /** @description add a text similar to the content of the link's URL in the Header without '#'. */
+  id?: string;
   title: HTML;
   /**
    * @format textarea
@@ -16,9 +18,12 @@ export interface Content {
 }
 
 export default function OurTeam(props: Props) {
-  const { title, description, accordion } = props;
+  const { id, title, description, accordion } = props;
   return (
-    <section class="max-w-[1200px] mx-auto md:pl-[40px] px-[20px] py-[6.6vmax]">
+    <section
+      class="max-w-[1200px] mx-auto md:pl-[40px] px-[20px] py-[6.6vmax]"
+      id={id}
+    >
       <div class="flex flex-col">
         <HTMLRenderer
           html={title}

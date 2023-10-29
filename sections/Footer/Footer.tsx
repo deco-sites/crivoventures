@@ -4,6 +4,8 @@ import type { Image as LiveImage } from "deco-sites/std/components/types.ts";
 import Image from "deco-sites/std/components/Image.tsx";
 
 export interface Props {
+  /** @description add a text similar to the content of the link's URL in the Header without '#'. */
+  id?: string;
   contact: {
     title: HTML;
     text: HTML;
@@ -18,10 +20,10 @@ export interface Props {
 }
 
 export default function Footer(props: Props) {
-  const { contact, image, alt, socialMedia } = props;
+  const { id, contact, image, alt, socialMedia } = props;
 
   return (
-    <footer class="w-full relative pt-[3.3vmax] mt-[30.01px]">
+    <footer class="w-full relative pt-[3.3vmax] mt-[30.01px]" id={id}>
       <div class="grid grid-cols-2 items-center max-w-[1200px] w-full mx-auto md:pl-[40px] pl-[20px]">
         <div class="flex flex-col">
           {contact.title && (
