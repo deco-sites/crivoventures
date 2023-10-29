@@ -73,7 +73,7 @@ function CookieConsent(props: Props) {
       <div
         id={id}
         class={`
-          fixed bottom-0 lg:bottom-[19px] w-screen z-50 lg:flex m-[20px]
+          fixed bottom-0 lg:bottom-[19px] w-screen z-50 lg:flex m-[20px] cookie
           ${
           layout?.position === "Left" ? "lg:justify-start lg:left-[19px]" : ""
         }
@@ -114,7 +114,10 @@ function CookieConsent(props: Props) {
               />
             )}
             {policy?.text && policy?.link && (
-              <a href={policy.link} class="text-sm link link-secondary text-[#111]">
+              <a
+                href={policy.link}
+                class="text-sm link link-secondary text-[#111]"
+              >
                 {policy.text}
               </a>
             )}
