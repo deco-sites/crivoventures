@@ -1,10 +1,10 @@
-import type { Image as LiveImage } from "deco-sites/std/components/types.ts";
-import Image from "deco-sites/std/components/Image.tsx";
+import type { ImageWidget } from "apps/admin/widgets.ts";
+import Image from "apps/website/components/Image.tsx";
 
 export interface Props {
   /** @format textarea */
   title: string;
-  image: LiveImage;
+  image: ImageWidget;
   alt: string;
 }
 
