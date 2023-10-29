@@ -53,7 +53,6 @@ export default function About(props: Props) {
               height={image.height}
               alt={image.label}
             />
-            
           </figure>
         </div>
         <hr class="bg-[#174b28] h-[4px] my-[9px] lg:mx-0 md:mx-[50px] mx-[20px]" />
