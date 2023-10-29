@@ -53,12 +53,11 @@ export default function About(props: Props) {
               height={image.height}
               alt={image.label}
             />
-            
           </figure>
         </div>
         <hr class="bg-[#174b28] h-[4px] my-[9px] lg:mx-0 md:mx-[50px] mx-[20px]" />
       </div>
-      <div class="lg:px-0 md:px-[50px] px-[20px] pt-[20px]">
+      <div class="lg:px-0 md:px-[50px] px-[20px] pt-[20px] mb-[20px]">
         <a
           href={link?.href}
           class="font-bold md:text-[18px] text-[16.5891px] text-[#d1734c] underline underline-offset-[0.2em]"
@@ -72,7 +71,7 @@ export default function About(props: Props) {
         <hr class="bg-[#174b28] h-[4px] my-[9px] lg:mx-0 md:mx-[50px] mx-[20px]" />
         <a
           href={link?.href}
-          class="font-bold md:text-[24px] text-[17.3073px] text-[#d1734c] underline underline-offset-[0.2em] pt-[20px] pb-[40px]"
+          class="font-bold md:text-[24px] text-[17.3073px] text-[#d1734c] underline underline-offset-[0.2em] pt-[30px]"
         >
           {link?.label}
         </a>
