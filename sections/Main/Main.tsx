@@ -22,6 +22,7 @@ export default function Main(props: Props) {
           width={1080}
           height={1080}
           alt={alt}
+          loading="eager"
         />
       </figure>
     </div>

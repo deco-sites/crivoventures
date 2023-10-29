@@ -133,12 +133,14 @@ function CookieConsent(props: Props) {
             <button
               class="btn border-b border-[#bbb] m-[10px] text-[12px] font-arial text-[#111]"
               data-button-cc-accept
+              aria-label={`${buttons.allowText} Cookies`}
             >
               {buttons.allowText}
             </button>
             <button
               class="btn btn-outline border-b border-[#bbb] m-[10px] text-[12px] font-arial text-[#111]"
               data-button-cc-close
+              aria-label={`${buttons.cancelText} Cookies`}
             >
               {buttons.cancelText}
             </button>
