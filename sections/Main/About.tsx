@@ -42,7 +42,7 @@ export default function About(props: Props) {
             </figure>
             <div
               class="md:text-[18px] text-[15.7691px] md:pt-[30px] pt-[40px] md:pb-0 pb-[20px] leading-[1.8em] underline-offset-[0.2em] gap-[15px] flex flex-col"
-              dangerouslySetInnerHTML={{ __html:details}}
+              dangerouslySetInnerHTML={{ __html: details }}
             />
           </div>
           <figure class="md:w-1/2 md:mb-0 lg:px-0 md:pr-[50px] px-0">
@@ -66,7 +66,7 @@ export default function About(props: Props) {
         </a>
         <div
           class="md:text-[18px] text-[15.7691px] py-[30px] text-justify"
-          dangerouslySetInnerHTML={{ __html:about}}
+          dangerouslySetInnerHTML={{ __html: about }}
         />
         <hr class="bg-[#174b28] h-[4px] my-[9px] lg:mx-0 md:mx-[50px] mx-[20px]" />
         <a
