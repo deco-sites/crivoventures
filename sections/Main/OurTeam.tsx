@@ -1,10 +1,8 @@
-import HTMLRenderer from "deco-sites/std/components/HTMLRenderer.tsx";
-import type { HTML } from "deco-sites/std/components/types.ts";
-
 export interface Props {
   /** @description add a text similar to the content of the link's URL in the Header without '#'. */
   id?: string;
-  title: HTML;
+  /** @format html */
+  title: string;
   /**
    * @format textarea
    */
@@ -14,7 +12,8 @@ export interface Props {
 
 export interface Content {
   label: string;
-  about: HTML;
+  /** @format html */
+  about: string;
 }
 
 export default function OurTeam(props: Props) {
@@ -25,9 +24,9 @@ export default function OurTeam(props: Props) {
       id={id}
     >
       <div class="flex flex-col">
-        <HTMLRenderer
-          html={title}
+        <div
           class="md:text-[33px] text-[23.0073px] md:absolute relative md:pb-0 pb-2 max-w-[443.05px]"
+          dangerouslySetInnerHTML={{ __html: title }}
         />
         <div class="grid md:grid-cols-2 grid-cols-1 items-center md:gap-x-[112px]">
           <p class="text-[#174b28] md:text-[18px] leading-[32.4px] text-justify max-w-[443.05px]">
@@ -46,9 +45,9 @@ export default function OurTeam(props: Props) {
                       </span>
                     </span>
                   </summary>
-                  <HTMLRenderer
-                    html={item.about}
+                  <div
                     class="md:text-[18px] text-[15.7691px] py-[30px]"
+                    dangerouslySetInnerHTML={{ __html: item.about }}
                   />
                 </details>
               );
