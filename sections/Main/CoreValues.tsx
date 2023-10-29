@@ -1,21 +1,22 @@
-import HTMLRenderer from "deco-sites/std/components/HTMLRenderer.tsx";
-import type { HTML } from "deco-sites/std/components/types.ts";
-import type { Image as LiveImage } from "deco-sites/std/components/types.ts";
-import Image from "deco-sites/std/components/Image.tsx";
+import type { ImageWidget } from "apps/admin/widgets.ts";
+import Image from "apps/website/components/Image.tsx";
 
 export interface Props {
   /** @description add a text similar to the content of the link's URL in the Header without '#'. */
   id?: string;
-  title: HTML;
-  description: HTML;
+  /** @format html */
+  title: string;
+  /** @format html */
+  description: string;
   accordion?: Content[];
-  image: LiveImage;
+  image: ImageWidget;
   alt?: string;
 }
 
 export interface Content {
   label: string;
-  about: HTML;
+  /** @format html */
+  about: string;
 }
 
 export default function CoreValues(props: Props) {
@@ -27,13 +28,13 @@ export default function CoreValues(props: Props) {
     >
       <div class="flex flex-col">
         <div class="flex flex-col max-w-[443.05px]">
-          <HTMLRenderer
-            html={title}
+          <div
             class="md:text-[33px] text-[24.3927px] pb-[18.31px]"
+            dangerouslySetInnerHTML={{ __html: title }}
           />
-          <HTMLRenderer
-            html={description}
+          <div
             class="md:text-[33px] text-[24.3927px] leading-[29.2247px] text-justify mb-[40px] md:leading-[43.9824px]"
+            dangerouslySetInnerHTML={{ __html: description }}
           />
         </div>
         <div class="flex md:flex-row flex-col-reverse justify-between items-center md:gap-x-[112px]">
@@ -50,9 +51,9 @@ export default function CoreValues(props: Props) {
                       </span>
                     </span>
                   </summary>
-                  <HTMLRenderer
-                    html={item.about}
+                  <div
                     class="md:text-[18px] text-[15.7691px] py-[30px]"
+                    dangerouslySetInnerHTML={{ __html: item.about }}
                   />
                 </details>
               );
