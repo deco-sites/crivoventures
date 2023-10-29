@@ -1,6 +1,7 @@
 import type { Image as LiveImage } from "deco-sites/std/components/types.ts";
 import Image from "deco-sites/std/components/Image.tsx";
 import { useState } from "preact/hooks";
+import useTextElementOpacity from "../../hooks/useTextElement.tsx";
 
 export interface Props {
   linkLogo?: string;
@@ -12,12 +13,14 @@ export interface Props {
 
 export interface Link {
   label?: string;
+  /** @description add text with # ➝ example: #core */
   url?: string;
 }
 
 export default function Header(props: Props) {
   const { linkLogo, logo, alt, links } = props;
   const [menuOpen, setMenuOpen] = useState(false);
+  useTextElementOpacity();
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);

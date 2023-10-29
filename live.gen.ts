@@ -12,7 +12,8 @@ import * as $$$$$$$$3 from "./sections/Main/CoreValues.tsx";
 import * as $$$$$$$$4 from "./sections/Main/Main.tsx";
 import * as $$$$$$$$5 from "./sections/Main/OurPortfolio.tsx";
 import * as $$$$$$$$6 from "./sections/Main/OurTeam.tsx";
-import * as $$$$$$$$7 from "./sections/Theme.tsx";
+import * as $$$$$$$$7 from "./sections/Miscellaneous/CookieConsent.tsx";
+import * as $$$$$$$$8 from "./sections/Theme.tsx";
 import * as i1$0 from "$live/loaders/secret.ts";
 import * as i1$1 from "$live/loaders/state.ts";
 import * as i1$2 from "$live/loaders/workflows/events.ts";
@@ -174,7 +175,9 @@ const manifest = {
     "deco-sites/crivoventures/sections/Main/Main.tsx": $$$$$$$$4,
     "deco-sites/crivoventures/sections/Main/OurPortfolio.tsx": $$$$$$$$5,
     "deco-sites/crivoventures/sections/Main/OurTeam.tsx": $$$$$$$$6,
-    "deco-sites/crivoventures/sections/Theme.tsx": $$$$$$$$7,
+    "deco-sites/crivoventures/sections/Miscellaneous/CookieConsent.tsx":
+      $$$$$$$$7,
+    "deco-sites/crivoventures/sections/Theme.tsx": $$$$$$$$8,
     "deco-sites/std/sections/Analytics.tsx": i2$$$$$0,
     "deco-sites/std/sections/configButterCMS.global.tsx": i2$$$$$1,
     "deco-sites/std/sections/configLinxImpulse.global.tsx": i2$$$$$2,
