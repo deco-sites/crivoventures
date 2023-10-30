@@ -72,8 +72,8 @@ function CookieConsent(props: Props) {
     <>
       <div
         id={id}
-        class={`
-          fixed bottom-0 lg:bottom-[19px] w-screen z-50 lg:flex m-[20px] cookie
+        class={`transform-gpu translate-y-[200%] transition
+          fixed bottom-0 lg:bottom-[19px] z-10 lg:flex m-[20px] cookie
           ${
           layout?.position === "Left" ? "lg:justify-start lg:left-[19px]" : ""
         }

@@ -27,8 +27,8 @@ export default function Header(props: Props) {
   };
 
   return (
-    <header class="flex items-center justify-between lg:px-[2vw] lg:py-[1vw] p-[6vw] bg-white fixed w-full z-10">
-      <a href={linkLogo} class="relative z-20">
+    <header class="flex items-center justify-between lg:px-[2vw] lg:py-[1vw] p-[6vw] bg-white fixed w-full z-20">
+      <a href={linkLogo} class="relative z-30">
         <figure>
           <Image
             src={logo || ""}
@@ -41,10 +41,10 @@ export default function Header(props: Props) {
       </a>
       <div class="pl-[11.521px] w-full flex lg:flex-row flex-row-reverse lg:justify-end">
         <nav
-          class={`lg:flex-row flex-col lg:justify-end lg:gap-[40.3242px] lg:pt-0 pt-[89.4219px] lg:relative absolute ${
+          class={`lg:flex-row flex-col lg:justify-end lg:gap-[40.3242px] lg:relative absolute ${
             menuOpen
               ? "flex bg-white h-screen left-0 w-full px-[2vw] justify-center"
-              : "lg:flex hidden items-center"
+              : "lg:flex hidden items-center lg:pt-0 pt-[89.4219px]"
           }`}
         >
           {props.hasMenu && links?.map((link) => (
