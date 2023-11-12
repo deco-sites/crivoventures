@@ -52,7 +52,7 @@ export default function CoreValues(props: Props) {
                   </summary>
                   <HTMLRenderer
                     html={item.about}
-                    class="md:text-[18px] text-[15.7691px] py-[30px]"
+                    class="md:text-[18px] text-[15.7691px] pb-[15px]"
                   />
                 </details>
               );
