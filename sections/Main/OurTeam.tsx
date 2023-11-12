@@ -48,7 +48,7 @@ export default function OurTeam(props: Props) {
                   </summary>
                   <HTMLRenderer
                     html={item.about}
-                    class="md:text-[18px] text-[15.7691px] py-[30px]"
+                    class="md:text-[18px] text-[15.7691px] pb-[30px]"
                   />
                 </details>
               );
