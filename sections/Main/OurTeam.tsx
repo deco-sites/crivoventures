@@ -1,4 +1,5 @@
 import HTMLRenderer from "deco-sites/std/components/HTMLRenderer.tsx";
+import type { Image as LiveImage } from "deco-sites/std/components/types.ts";
 import type { HTML } from "deco-sites/std/components/types.ts";
 
 export interface Props {
@@ -11,10 +12,16 @@ export interface Props {
   description?: string;
   accordion?: Content[];
 }
-
+export interface partnerImage {
+  image: LiveImage;
+  width: number;
+  height: number;
+  label?: string;
+}
 export interface Content {
   label: string;
   about: HTML;
+  partner?: partnerImage;
 }
 
 export default function OurTeam(props: Props) {
@@ -27,10 +34,10 @@ export default function OurTeam(props: Props) {
       <div class="flex flex-col">
         <HTMLRenderer
           html={title}
-          class="md:text-[33px] text-[23.0073px] md:absolute relative md:pb-0 pb-2 max-w-[443.05px]"
+          class="md:text-[33px] text-[23.0073px] relative md:pb-0 pb-2 max-w-[443.05px]"
         />
-        <div class="grid md:grid-cols-2 grid-cols-1 items-center md:gap-x-[112px]">
-          <p class="text-[#174b28] md:text-[18px] leading-[32.4px] text-justify max-w-[443.05px]">
+        <div class="grid md:grid-cols-2 grid-cols-1 md:gap-x-[112px]">
+          <p class="text-[#174b28] md:text-[18px] md:mt-28 leading-[32.4px] text-justify max-w-[443.05px]">
             {description}
           </p>
           <div class="flex flex-col">
@@ -46,6 +53,15 @@ export default function OurTeam(props: Props) {
                       </span>
                     </span>
                   </summary>
+                  <figure class="mb-3 flex items-center justify-center">
+                    <img class="rounded-full"
+                      src={item.partner?.image} 
+                      loading={"lazy"} 
+                      width={item.partner?.width} 
+                      height={item.partner?.height} 
+                      label={item.partner?.label} 
+                    />
+                  </figure>
                   <HTMLRenderer
                     html={item.about}
                     class="md:text-[18px] text-[15.7691px] pb-[30px]"

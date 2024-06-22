@@ -11,9 +11,10 @@ export interface Props {
 export interface Logo {
   image: LiveImage;
   width: number;
-  height?: number;
+  height: number;
   label?: string;
   url?: string;
+  ativarEscalaDeCinza?: boolean;
 }
 
 export default function OurPortfolio(props: Props) {
@@ -31,15 +32,16 @@ export default function OurPortfolio(props: Props) {
         {logo?.map((item) => (
           <a
             href={item.url}
-            class="md:h-full h-[131.948px] flex items-center duration-300 ease-in hover:scale-110"
+            class="flex items-center duration-300 ease-in hover:scale-110"
           >
             <figure class="md:w-auto w-full">
-              <Image
+              <img 
                 src={item?.image}
-                class="mx-auto"
+                class={`mx-auto ${item.ativarEscalaDeCinza ? "grayscale" : "grayscale-0"}`}
                 alt={item.label}
                 width={item.width}
                 height={item.height}
+                style={{maxHeight:item.height}}
               />
             </figure>
           </a>

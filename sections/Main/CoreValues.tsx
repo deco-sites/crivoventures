@@ -36,7 +36,7 @@ export default function CoreValues(props: Props) {
             class="md:text-[33px] text-[24.3927px] leading-[29.2247px] text-justify mb-[40px] md:leading-[43.9824px]"
           />
         </div>
-        <div class="flex md:flex-row flex-col-reverse justify-between items-center md:gap-x-[112px]">
+        <div class="flex md:flex-row flex-col-reverse justify-between md:gap-x-[112px]">
           <div class="flex flex-col w-full">
             {accordion?.map((item) => {
               return (
