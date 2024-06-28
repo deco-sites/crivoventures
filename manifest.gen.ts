@@ -9,10 +9,11 @@ import * as $$$$$$1 from "./sections/Header/Header.tsx";
 import * as $$$$$$2 from "./sections/Main/About.tsx";
 import * as $$$$$$3 from "./sections/Main/CoreValues.tsx";
 import * as $$$$$$4 from "./sections/Main/Main.tsx";
-import * as $$$$$$5 from "./sections/Main/OurPortfolio.tsx";
-import * as $$$$$$6 from "./sections/Main/OurTeam.tsx";
-import * as $$$$$$7 from "./sections/Miscellaneous/CookieConsent.tsx";
-import * as $$$$$$8 from "./sections/Theme.tsx";
+import * as $$$$$$5 from "./sections/Main/NewAbout.tsx";
+import * as $$$$$$6 from "./sections/Main/OurPortfolio.tsx";
+import * as $$$$$$7 from "./sections/Main/OurTeam.tsx";
+import * as $$$$$$8 from "./sections/Miscellaneous/CookieConsent.tsx";
+import * as $$$$$$9 from "./sections/Theme.tsx";
 
 const manifest = {
   "sections": {
@@ -21,11 +22,12 @@ const manifest = {
     "deco-sites/crivoventures/sections/Main/About.tsx": $$$$$$2,
     "deco-sites/crivoventures/sections/Main/CoreValues.tsx": $$$$$$3,
     "deco-sites/crivoventures/sections/Main/Main.tsx": $$$$$$4,
-    "deco-sites/crivoventures/sections/Main/OurPortfolio.tsx": $$$$$$5,
-    "deco-sites/crivoventures/sections/Main/OurTeam.tsx": $$$$$$6,
+    "deco-sites/crivoventures/sections/Main/NewAbout.tsx": $$$$$$5,
+    "deco-sites/crivoventures/sections/Main/OurPortfolio.tsx": $$$$$$6,
+    "deco-sites/crivoventures/sections/Main/OurTeam.tsx": $$$$$$7,
     "deco-sites/crivoventures/sections/Miscellaneous/CookieConsent.tsx":
-      $$$$$$7,
-    "deco-sites/crivoventures/sections/Theme.tsx": $$$$$$8,
+      $$$$$$8,
+    "deco-sites/crivoventures/sections/Theme.tsx": $$$$$$9,
   },
   "apps": {
     "deco-sites/crivoventures/apps/decohub.ts": $$$$$$$$$$$0,

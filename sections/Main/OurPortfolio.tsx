@@ -1,5 +1,4 @@
 import type { Image as LiveImage } from "deco-sites/std/components/types.ts";
-import Image from "apps/website/components/Image.tsx";
 
 export interface Props {
   /** @description add a text similar to the content of the link's URL in the Header without '#'. */
