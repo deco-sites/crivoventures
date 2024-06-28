@@ -1,9 +1,13 @@
-import HTMLRenderer from "deco-sites/std/components/HTMLRenderer.tsx";
+// import HTMLRenderer from "deco-sites/std/components/HTMLRenderer.tsx";
 // import type { HTML } from "deco-sites/std/components/types.ts";
 import { HTMLWidget as HTML } from "apps/admin/widgets.ts";
 import type { Image as LiveImage } from "deco-sites/std/components/types.ts";
 import Image from "apps/website/components/Image.tsx";
 
+export interface foundersData {
+  founderName: string;
+  founderLink: string;
+}
 export interface Props {
   logo: {
     src: LiveImage;
@@ -21,7 +25,7 @@ export interface Props {
 //   about: HTML;
   newDetails: {
     companyInfo: string,
-    founders: string,
+    founders: foundersData[]
     websiteLink: {
         link: string,
         external?: boolean
@@ -62,7 +66,17 @@ export default function newAbout(props: Props) {
                     </strong>
                 </p>
                 <p>
-                    <strong>Founders: </strong>{newDetails.founders}
+                    <strong>Founders: </strong>
+                    {newDetails.founders.map((founder, index) => {
+                      return (
+                        <>
+                          <a class="cursor-pointer" href={founder.founderLink} target={'_blank'}>
+                            {founder.founderName}
+                          </a>
+                          {index !== newDetails.founders.length - 1 && ' e '}
+                        </>
+                      )
+                    })}
                 </p>
                 <p>
                     <strong>website: </strong><a
