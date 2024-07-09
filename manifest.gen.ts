@@ -17,23 +17,23 @@ import * as $$$$$$9 from "./sections/Theme.tsx";
 
 const manifest = {
   "sections": {
-    "deco-sites/crivoventures/sections/Footer/Footer.tsx": $$$$$$0,
-    "deco-sites/crivoventures/sections/Header/Header.tsx": $$$$$$1,
-    "deco-sites/crivoventures/sections/Main/About.tsx": $$$$$$2,
-    "deco-sites/crivoventures/sections/Main/CoreValues.tsx": $$$$$$3,
-    "deco-sites/crivoventures/sections/Main/Main.tsx": $$$$$$4,
-    "deco-sites/crivoventures/sections/Main/NewAbout.tsx": $$$$$$5,
-    "deco-sites/crivoventures/sections/Main/OurPortfolio.tsx": $$$$$$6,
-    "deco-sites/crivoventures/sections/Main/OurTeam.tsx": $$$$$$7,
-    "deco-sites/crivoventures/sections/Miscellaneous/CookieConsent.tsx":
+    "site/sections/Footer/Footer.tsx": $$$$$$0,
+    "site/sections/Header/Header.tsx": $$$$$$1,
+    "site/sections/Main/About.tsx": $$$$$$2,
+    "site/sections/Main/CoreValues.tsx": $$$$$$3,
+    "site/sections/Main/Main.tsx": $$$$$$4,
+    "site/sections/Main/NewAbout.tsx": $$$$$$5,
+    "site/sections/Main/OurPortfolio.tsx": $$$$$$6,
+    "site/sections/Main/OurTeam.tsx": $$$$$$7,
+    "site/sections/Miscellaneous/CookieConsent.tsx":
       $$$$$$8,
-    "deco-sites/crivoventures/sections/Theme.tsx": $$$$$$9,
+    "site/sections/Theme.tsx": $$$$$$9,
   },
   "apps": {
-    "deco-sites/crivoventures/apps/decohub.ts": $$$$$$$$$$$0,
-    "deco-sites/crivoventures/apps/site.ts": $$$$$$$$$$$1,
+    "site/apps/decohub.ts": $$$$$$$$$$$0,
+    "site/apps/site.ts": $$$$$$$$$$$1,
   },
-  "name": "deco-sites/crivoventures",
+  "name": "site",
   "baseUrl": import.meta.url,
 };
 
