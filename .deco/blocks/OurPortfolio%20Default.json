@@ -1,1 +1,71 @@
-{"id":"portfolio","logo":[{"url":"/agroforte","image":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/d8f1e476-7cf1-47e7-8fb1-2b138747720d","label":"agroforte","width":190.81,"height":85.98},{"url":"/bakerytech","image":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/2fe3201b-c838-4f62-92c5-2fbef4983958","label":"bakery tech","width":190.81,"height":98.13},{"image":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/f105d2ce-2b00-4e6c-a398-facb6bbaa8dc","label":"Deco","width":133.33,"height":63.59},{"url":"/dinerama","image":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/daed17bd-19fd-43f2-a528-02c0fd7115cd","label":"dinerama","width":241.27,"height":72.03},{"image":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/a5e8fcb2-a9eb-47da-b66f-1c9c38828cbf","label":"Inner Ai","width":190.81,"height":107.25},{"url":"/falco","image":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/eefcba2e-7858-42da-b66b-5e6ff41db668","label":"falco","width":190.8,"height":69.78},{"url":"/gira","image":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/0d07e43f-05f6-4bfb-aed7-5496711670fc","label":"gira","width":140.36,"height":64.89},{"url":"/superautor","image":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/c6c0fd32-952d-46cc-a70c-e5d99f52cd18","label":"superautor","width":140.36,"height":122},{"url":"/zarv","image":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/8b2653c6-0567-41f1-b1ee-426f9adf2eb6","label":"zarv","width":190.8,"height":63.26}],"title":"our portfolio","__resolveType":"site/sections/Main/OurPortfolio.tsx"}
+{
+  "id": "portfolio",
+  "logo": [
+    {
+      "url": "/agroforte",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/d8f1e476-7cf1-47e7-8fb1-2b138747720d",
+      "label": "agroforte",
+      "width": 190.81,
+      "height": 85.98
+    },
+    {
+      "url": "/bakerytech",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/2fe3201b-c838-4f62-92c5-2fbef4983958",
+      "label": "bakery tech",
+      "width": 190.81,
+      "height": 98.13
+    },
+    {
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/f105d2ce-2b00-4e6c-a398-facb6bbaa8dc",
+      "label": "Deco",
+      "width": 133.33,
+      "height": 63.59,
+      "url": "/deco"
+    },
+    {
+      "url": "/dinerama",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/daed17bd-19fd-43f2-a528-02c0fd7115cd",
+      "label": "dinerama",
+      "width": 241.27,
+      "height": 72.03
+    },
+    {
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/a5e8fcb2-a9eb-47da-b66f-1c9c38828cbf",
+      "label": "Inner Ai",
+      "width": 190.81,
+      "height": 107.25,
+      "url": "/inner-ai",
+      "ativarEscalaDeCinza": false
+    },
+    {
+      "url": "/falco",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/eefcba2e-7858-42da-b66b-5e6ff41db668",
+      "label": "falco",
+      "width": 190.8,
+      "height": 69.78
+    },
+    {
+      "url": "/gira",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/0d07e43f-05f6-4bfb-aed7-5496711670fc",
+      "label": "gira",
+      "width": 140.36,
+      "height": 64.89
+    },
+    {
+      "url": "/superautor",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/c6c0fd32-952d-46cc-a70c-e5d99f52cd18",
+      "label": "superautor",
+      "width": 140.36,
+      "height": 122
+    },
+    {
+      "url": "/zarv",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/8b2653c6-0567-41f1-b1ee-426f9adf2eb6",
+      "label": "zarv",
+      "width": 190.8,
+      "height": 63.26
+    }
+  ],
+  "title": "our portfolio",
+  "__resolveType": "site/sections/Main/OurPortfolio.tsx"
+}

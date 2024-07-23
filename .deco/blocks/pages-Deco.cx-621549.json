@@ -1,0 +1,71 @@
+{
+  "name": "Deco.cx",
+  "path": "/deco",
+  "sections": [
+    {
+      "type": "website",
+      "title": "deco.cx — crivo ventures",
+      "context": null,
+      "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/b9765b16-9dd5-4247-9358-82ce2160f122",
+      "__resolveType": "deco-sites/std/sections/SEO.tsx"
+    },
+    {
+      "__resolveType": "Cookie Default"
+    },
+    {
+      "alt": "logo",
+      "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/123c659f-4e8b-4db3-8d19-a1c1e1ff6396",
+      "linkLogo": "/",
+      "__resolveType": "site/sections/Header/Header.tsx"
+    },
+    {
+      "link": {
+        "href": "/",
+        "label": "back"
+      },
+      "logo": {
+        "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/06a4dfaa-939e-4d04-8cc9-9ae54d7d176f",
+        "label": "deco.cx",
+        "width": 91,
+        "height": 56
+      },
+      "image": {
+        "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/0074a40a-e339-4e93-9b6b-e7f4db87bf96",
+        "label": "founders",
+        "width": 492.86,
+        "height": 338.9
+      },
+      "newAbout": {
+        "title": "why did we invest in Deco?",
+        "content": "<p class=\"preFade fadeIn\"><br data-mce-bogus=\"1\"></p><p class=\"preFade fadeIn\">We are excited to share our recent investment decision in Deco, an initiative led by a team of industry veterans - Guilherme, Luciano, and Rafael. Our decision to back them up was made on three stances: team, moat and market.</p><p class=\"preFade fadeIn\"><br data-mce-bogus=\"1\"></p><p class=\"preFade fadeIn\">In today's digital landscape, website performance stands as an important role for customer satisfaction and revenue generation. The correlation between page load times and user engagement has become increasingly evident, with slower loading sites directly impacting consumer behavior and brand-consumer relationships. This opportunity prompted our interest in Deco, given their strategic approach to tackle this issue.</p><p class=\"preFade fadeIn\"><br data-mce-bogus=\"1\"></p><p class=\"preFade fadeIn\">One of the challenges faced by businesses lies in the optimization of website performance without incurring high costs or relying excessively on technical resources. Deco's vision aligns with this challenge, aiming to bridge the gap between technical intricacies and user-friendly website management focused on the front-end.</p><p class=\"preFade fadeIn\"><br data-mce-bogus=\"1\"></p><p class=\"preFade fadeIn\">JavaScript, while a great tool for crafting interactive web experiences, often contributes to prolonged loading times. The average mobile web page takes an alarming 15.3 seconds to load, profoundly affecting user experience and subsequently, revenue streams for businesses. Deco's approach acknowledges this issue and aims to offer feasible solutions to mitigate these challenges efficiently.</p><p class=\"preFade fadeIn\"><br data-mce-bogus=\"1\"></p><p class=\"preFade fadeIn\">Moreover, the Brazilian e-commerce sector presents a unique landscape where mobile web speed directly influences user engagement and revenue. Studies have revealed that a number of mobile site visits are abandoned if the page fails to load within three seconds. This statistic underscores the urgency for solutions like Deco, which not only enhance user experience but also significantly impact publishers' mobile ad revenues.</p><p class=\"preFade fadeIn\"><br data-mce-bogus=\"1\"></p><p class=\"preFade fadeIn\">The growth trajectory of the Brazilian e-commerce industry, despite its challenges, reinforces our confidence in Deco's potential. Projected to reach 17% of the retail space by 2025, this sector offers opportunities for solutions like Deco to thrive.</p><p class=\"preFade fadeIn\"><br data-mce-bogus=\"1\"></p><p class=\"preFade fadeIn\">Deco's founders bring a wealth of experience from VTEX, where they had a deep understanding of the industry's nuances. Guilherme's leadership roles at VTEX, Luciano's software engineering expertise, and Rafael's comprehensive knowledge spanning agency experience, enterprise sales, and growth marketing collectively form a robust foundation for Deco's success. And to us, a great team will create a great business.</p>"
+      },
+      "newDetails": {
+        "founders": [
+          {
+            "founderLink": "https://www.linkedin.com/in/guifromrio/",
+            "founderName": "Guilherme Rodrigues"
+          },
+          {
+            "founderLink": "https://www.linkedin.com/in/lcnjnr/",
+            "founderName": "Luciano Junior"
+          },
+          {
+            "founderName": "Rafael Crespo",
+            "founderLink": "https://www.linkedin.com/in/rafaelgcrespo/"
+          }
+        ],
+        "companyInfo": "deco.cx is a digital experience platform that makes it easy to build high-performance ecommerce storefronts.",
+        "websiteLink": {
+          "link": "https://deco.cx/",
+          "external": true
+        },
+        "yearInvestment": "2023"
+      },
+      "__resolveType": "site/sections/Main/NewAbout.tsx"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

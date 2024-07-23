@@ -1,0 +1,67 @@
+{
+  "name": "Inner AI",
+  "path": "/inner-ai",
+  "sections": [
+    {
+      "type": "website",
+      "title": "inner ai — crivo ventures",
+      "context": null,
+      "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/b9765b16-9dd5-4247-9358-82ce2160f122",
+      "__resolveType": "deco-sites/std/sections/SEO.tsx"
+    },
+    {
+      "__resolveType": "Cookie Default"
+    },
+    {
+      "alt": "logo",
+      "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/123c659f-4e8b-4db3-8d19-a1c1e1ff6396",
+      "linkLogo": "/",
+      "__resolveType": "site/sections/Header/Header.tsx"
+    },
+    {
+      "link": {
+        "href": "/",
+        "label": "back"
+      },
+      "logo": {
+        "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/3daf3ea7-9452-4a5e-80b9-e2674140da09",
+        "label": "inner ai",
+        "width": 303,
+        "height": 70
+      },
+      "image": {
+        "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/6628e896-e91b-4ba3-a7a1-16f3a00ec96a",
+        "label": "founders",
+        "width": 492.86,
+        "height": 338.9
+      },
+      "newAbout": {
+        "title": "why did we invest in InnerAI?",
+        "content": "<p class=\"preFade fadeIn\"><br data-mce-bogus=\"1\"></p><p class=\"preFade fadeIn\">InnerAI has an excelent team led by Pedro Salles and Eduardo Mitelman. Pedro's background as a coder since the age of 10, coupled with his filmmaking prowess, sets the stage for InnerAI's main product. His prior experience in machine learning development and academic achievements from the USC Innovation Academy further validate his expertise. On the business front, Eduardo's decade-long experience in enterprise sales with large companies like Heineken and Santander, along with his successful venture that achieved a $1.5 million ARR for the Brazilian Fortune 500, adds depth to the leadership.</p><p class=\"preFade fadeIn\"><br data-mce-bogus=\"1\"></p><p class=\"preFade fadeIn\">When evaluating the problem InnerAI is solving, we delve into a couple of challenges. In today's digital era, content creation is a critical skill marred by dificulties such as time constraints, steep learning curves, and the high cost of outsourcing. InnerAI recognizes these hurdles and aims to simplify and accelerate the content creation process. By addressing the time-intensive nature of existing tools like Canva and Adobe Creative Cloud, InnerAI intends to make content creation more accessible. Furthermore, the platform acknowledges the need for swift content production in a fast-paced market. Lastly, InnerAI offers a cost-effective solution for businesses by streamlining the content creation process, saving both time and resources. This streamline has proven so successful that InnerAI was able to attract large corporations, such as Claro, Embraer, Mercado Libre and more in less than three months of sales cycle.</p><p class=\"preFade fadeIn\"><br data-mce-bogus=\"1\"></p><p class=\"preFade fadeIn\">When talking about market opportunity, we were caution to understand the hurdles for early stage AI companies in today's era. While the AI industry is dominated by giants like OpenAI, Microsoft, Google, and Meta, we believe that companies offering vertical and tailored experiences will have space to thrive. InnerAI's competitive advantage lies in its ability to tailor its product to a unique Ideal Customer Profile (ICP) and create individualized databases for each client. With a substantial market of approximately 10,000 large companies in Brazil, InnerAI is well-positioned to explore and capture a significant share with its innovative solutions.</p><p class=\"preFade fadeIn\"><br data-mce-bogus=\"1\"></p><p class=\"preFade fadeIn\">In parallel to that, InnerAI presents an advanced content creation solution by integrating leading AI models like Llama, Azure GPT, and Google Vertex into a unified multimodal generative hub. The platform's user-friendly interface displays only essential tools, dynamically built with AI modularity to help users achieve their creative goals seamlessly. InnerAI goes a step further by introducing brand personalization, allowing the AI to replicate a brand's style for cohesive content aligned with brand guidelines. Specifically optimized for video creation, InnerAI's AI streamlines the complex video production process, offering an efficient and safe solution for enterprises seeking personalized content creation, while keeping information confidential.</p><p class=\"preFade fadeIn\"><br data-mce-bogus=\"1\"></p><p class=\"preFade fadeIn\">In conclusion, our investment in InnerAI is rooted in the belief that their approach to content creation aligns with the evolving needs of businesses and individuals in the digital era. We are excited about the potential of InnerAI to make an impact in the market and look forward to supporting them along the way.</p>"
+      },
+      "newDetails": {
+        "founders": [
+          {
+            "founderLink": "https://www.linkedin.com/in/pedrosallesleite/",
+            "founderName": "Pedro Salles"
+          },
+          {
+            "founderLink": "https://www.linkedin.com/in/eduardo-mitelman-61aa0b115/",
+            "founderName": "Eduardo Mitelman"
+          }
+        ],
+        "companyInfo": "Platform for personalized content creation that helps save time and money creating high-quality texts, videos, audios, and images.",
+        "websiteLink": {
+          "link": "https://www.innerai.com",
+          "external": true
+        },
+        "yearInvestment": "2023"
+      },
+      "__resolveType": "site/sections/Main/NewAbout.tsx"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
