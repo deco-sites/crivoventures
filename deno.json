@@ -1,11 +1,11 @@
 {
   "imports": {
     "deco-sites/start/": "./",
-    "deco-sites/std/": "https://denopkg.com/deco-sites/std@1.26.6/",
-    "$live/": "https://denopkg.com/deco-cx/deco@1.75.2/",
+    "deco-sites/std/": "https://denopkg.com/deco-sites/std@1.26.7/",
+    "$live/": "https://denopkg.com/deco-cx/deco@1.80.1/",
     "$store/": "./",
-    "deco/": "https://denopkg.com/deco-cx/deco@1.75.2/",
-    "apps/": "https://denopkg.com/deco-cx/apps@0.47.9/",
+    "deco/": "https://denopkg.com/deco-cx/deco@1.80.1/",
+    "apps/": "https://denopkg.com/deco-cx/apps@0.53.0/",
     "$fresh/": "https://deno.land/x/fresh@1.6.8/",
     "preact": "https://esm.sh/preact@10.19.6",
     "preact/": "https://esm.sh/preact@10.19.6/",
