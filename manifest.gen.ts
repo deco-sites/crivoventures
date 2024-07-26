@@ -25,7 +25,8 @@ const manifest = {
     "site/sections/Main/NewAbout.tsx": $$$$$$5,
     "site/sections/Main/OurPortfolio.tsx": $$$$$$6,
     "site/sections/Main/OurTeam.tsx": $$$$$$7,
-    "site/sections/Miscellaneous/CookieConsent.tsx": $$$$$$8,
+    "site/sections/Miscellaneous/CookieConsent.tsx":
+      $$$$$$8,
     "site/sections/Theme.tsx": $$$$$$9,
   },
   "apps": {
