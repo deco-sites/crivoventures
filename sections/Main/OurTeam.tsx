@@ -54,7 +54,7 @@ export default function OurTeam(props: Props) {
                     </span>
                   </summary>
                   <figure class="mb-3 flex items-center justify-center">
-                    <img class={`rounded-full max-h-[200px] object-cover max-w-[200px]`}
+                    <img class={`rounded-full max-h-[200px] max-w-[${item.partner?.width}]`}
                       src={item.partner?.image} 
                       loading={"lazy"} 
                       width={item.partner?.width} 
