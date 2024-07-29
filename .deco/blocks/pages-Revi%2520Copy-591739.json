@@ -1,0 +1,77 @@
+{
+  "name": "Soutag",
+  "path": "/soutag",
+  "sections": [
+    {
+      "type": "website",
+      "title": "dinerama — crivo ventures",
+      "context": null,
+      "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/b9765b16-9dd5-4247-9358-82ce2160f122",
+      "__resolveType": "deco-sites/std/sections/SEO.tsx"
+    },
+    {
+      "__resolveType": "Cookie Default"
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "alt": "logo",
+        "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/186c80a1-661a-499f-a55f-516d4b4ea537",
+        "__resolveType": "site/sections/Header/Header.tsx",
+        "hasMenu": true,
+        "links": [
+          {
+            "label": "website:",
+            "url": "https://userevi.com"
+          }
+        ]
+      }
+    },
+    {
+      "link": {
+        "href": "/",
+        "label": "back"
+      },
+      "logo": {
+        "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/cc4b995a-3dde-45c3-8e0e-27398145b107",
+        "label": "Soutag",
+        "width": 180,
+        "height": 60.58
+      },
+      "image": {
+        "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/d18b3393-abfb-48f5-b292-5874e8028833",
+        "label": "founders",
+        "width": 492.86,
+        "height": 338.9
+      },
+      "newAbout": {
+        "title": "why did we invest in Soutag?",
+        "content": "<p>Soutag, a startup from Belo Horizonte, connects gas station owners with app and taxi drivers, enabling dynamic fuel pricing for high-frequency consumers. By integrating with gas station ERP systems, Soutag adjusts pump prices to reflect pre-agreed discounts for registered drivers, providing significant savings for these high-usage customers.</p><p><br data-mce-bogus=\"1\"></p><p>Operating in Greater Belo Horizonte with 77 stations as of June 2024, Soutag has already reached breakeven. Their lean operations and strong cash generation demonstrate a resilient business model capable of sustaining growth with minimal capital investment. They plan to expand to other regions, with potential markets including Vitória, Salvador, and São Paulo, where they have already received invitations to enter.</p><p><br data-mce-bogus=\"1\"></p><p>The founding team brings together complementary skills and deep industry expertise. One co-founder, Rafael, has a background in gas station investments and is the president of the gas station owners' union in Minas Gerais, providing valuable industry connections. Another co-founder handles the technical aspects, developing the integration with ERP systems, while the CEO, Helder Paiva, manages market contact and investor relations. Their long-standing relationship further reduces team risk.</p><p><br data-mce-bogus=\"1\"></p><p>Soutag’s growth strategy relies on organic expansion driven by strong word-of-mouth among drivers, minimizing marketing costs. They strategically partner with complementary gas station networks to ensure coverage without creating competition. Recently, they shifted from a fixed price per liter to taking a share of the station owner's profit, significantly increasing their margins and aligning incentives.</p><p><br data-mce-bogus=\"1\"></p><p>Potential upsides of the investment include expanding into the diesel market, which could significantly increase their market size, and offering additional products to drivers, such as financial products and insurance.</p><p><br data-mce-bogus=\"1\"></p><p>Soutag’s innovative approach, resilient business model, complementary founding team, and strategic growth plans make it a compelling investment opportunity. We see strong potential for regional expansion and significant upside.</p>"
+      },
+      "newDetails": {
+        "founders": [
+          {
+            "founderLink": "https://www.linkedin.com/in/helder-paiva/",
+            "founderName": "Helder Paiva"
+          },
+          {
+            "founderName": "Rafael Macedo",
+            "founderLink": "https://www.linkedin.com/in/rafael-macedo/"
+          },
+          {
+            "founderName": "Rafael Fonseca",
+            "founderLink": "https://www.linkedin.com/in/rafael-fonseca/"
+          }
+        ],
+        "companyInfo": "Delivering dinamic fuel pricing for gas stations, taxi and app drivers",
+        "websiteLink": {
+          "link": "https://soutag.com.br",
+          "external": true
+        },
+        "yearInvestment": "2024"
+      },
+      "__resolveType": "site/sections/Main/NewAbout.tsx"
+    }
+  ],
+  "__resolveType": "$live/pages/LivePage.tsx"
+}
