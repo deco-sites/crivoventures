@@ -14,6 +14,7 @@ export interface Logo {
   label?: string;
   url?: string;
   ativarEscalaDeCinza?: boolean;
+  opacityValue?: "opacity-30" | "opacity-40" | "opacity-50" | "opacity-60" | "opacity-70" | "opacity-80" | "opacity-90" | "opacity-100";
 }
 
 export default function OurPortfolio(props: Props) {
@@ -31,12 +32,12 @@ export default function OurPortfolio(props: Props) {
         {logo?.map((item) => (
           <a
             href={item.url}
-            class="flex items-center duration-300 ease-in hover:scale-110"
+            class="flex items-center justify-center duration-300 ease-in hover:scale-110"
           >
             <figure class="md:w-auto w-full">
               <img 
                 src={item?.image}
-                class={`mx-auto ${item.ativarEscalaDeCinza ? "grayscale" : "grayscale-0"}`}
+                class={`mx-auto ${item.ativarEscalaDeCinza ? "grayscale" : "grayscale-0"} ${item.opacityValue ? item.opacityValue : ""}`}
                 alt={item.label}
                 width={item.width}
                 height={item.height}
