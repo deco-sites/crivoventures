@@ -14,7 +14,7 @@ export interface Logo {
   label?: string;
   url?: string;
   ativarEscalaDeCinza?: boolean;
-  opacityValue?: "opacity-30" | "opacity-40" | "opacity-50" | "opacity-60" | "opacity-70" | "opacity-80" | "opacity-90" | "opacity-100";
+  opacityValue?: "!opacity-30" | "!opacity-40" | "!opacity-50" | "!opacity-60" | "!opacity-70" | "!opacity-80" | "!opacity-90" | "!opacity-100";
 }
 
 export default function OurPortfolio(props: Props) {
