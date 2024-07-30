@@ -19,11 +19,8 @@
         "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/186c80a1-661a-499f-a55f-516d4b4ea537",
         "__resolveType": "site/sections/Header/Header.tsx",
         "hasMenu": true,
-        "links": [
-          {
-            "url": "https://crivo.ventures"
-          }
-        ]
+        "links": [],
+        "linkLogo": "/"
       }
     },
     {
