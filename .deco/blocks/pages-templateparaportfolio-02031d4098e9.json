@@ -4,7 +4,7 @@
   "sections": [
     {
       "type": "website",
-      "title": "dinerama — crivo ventures",
+      "title": "revi — crivo ventures",
       "context": null,
       "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/b9765b16-9dd5-4247-9358-82ce2160f122",
       "__resolveType": "deco-sites/std/sections/SEO.tsx"
@@ -21,8 +21,7 @@
         "hasMenu": true,
         "links": [
           {
-            "label": "website:",
-            "url": "https://userevi.com"
+            "url": "https://crivo.ventures"
           }
         ]
       }
