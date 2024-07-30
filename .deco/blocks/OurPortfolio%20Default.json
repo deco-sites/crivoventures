@@ -45,20 +45,12 @@
       "height": 69.78
     },
     {
-      "url": "/zax",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/985d4530-d3c4-453d-8568-85f6c65502d9",
-      "label": "zax",
-      "width": 130,
-      "ativarEscalaDeCinza": true,
-      "height": 120
-    },
-    {
       "url": "/revi",
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/d0f3401f-d89c-4744-ab34-806f6a96b658",
       "label": "Revi",
       "width": 190,
-      "height": 86,
-      "ativarEscalaDeCinza": true
+      "ativarEscalaDeCinza": true,
+      "height": 86
     },
     {
       "url": "/soutag",
@@ -69,18 +61,26 @@
       "ativarEscalaDeCinza": true
     },
     {
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/c6c0fd32-952d-46cc-a70c-e5d99f52cd18",
-      "width": 140.36,
-      "height": 122,
       "url": "/superautor",
-      "label": "superautor"
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/c6c0fd32-952d-46cc-a70c-e5d99f52cd18",
+      "label": "superautor",
+      "width": 140.36,
+      "height": 122
     },
     {
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/8b2653c6-0567-41f1-b1ee-426f9adf2eb6",
       "width": 190.8,
       "height": 63.26,
-      "label": "zarv",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/8b2653c6-0567-41f1-b1ee-426f9adf2eb6",
-      "url": "/zarv"
+      "url": "/zarv",
+      "label": "zarv"
+    },
+    {
+      "width": 130,
+      "height": 120,
+      "label": "zax",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/985d4530-d3c4-453d-8568-85f6c65502d9",
+      "url": "/zax",
+      "ativarEscalaDeCinza": true
     },
     {}
   ],

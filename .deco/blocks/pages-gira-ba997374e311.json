@@ -1,5 +1,5 @@
 {
-  "path": "/g",
+  "path": "/zax",
   "sections": [
     {
       "type": "website",
@@ -24,7 +24,7 @@
       },
       "logo": {
         "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/b7e41467-bc5e-47c1-a16c-f96fb9ce2908",
-        "label": "gira",
+        "label": "zax",
         "width": 140.31,
         "height": 120.58
       },
