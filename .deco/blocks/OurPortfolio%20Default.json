@@ -18,8 +18,8 @@
     {
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/f105d2ce-2b00-4e6c-a398-facb6bbaa8dc",
       "label": "Deco",
-      "width": 133.33,
-      "height": 63.59,
+      "width": 160,
+      "height": 80,
       "url": "/deco"
     },
     {
@@ -46,11 +46,11 @@
     },
     {
       "url": "/revi",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/d0f3401f-d89c-4744-ab34-806f6a96b658",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/eb5d8e74-76c5-4008-badd-b4bce15d4dae",
       "label": "Revi",
-      "width": 190,
+      "width": 160,
       "ativarEscalaDeCinza": true,
-      "height": 86
+      "height": 160
     },
     {
       "url": "/soutag",
