@@ -46,10 +46,11 @@
     },
     {
       "url": "/zax",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/8bde354f-4e2f-45d8-b9cd-0ab98914f9db",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/985d4530-d3c4-453d-8568-85f6c65502d9",
       "label": "zax",
-      "width": 100,
-      "height": 80
+      "width": 130,
+      "ativarEscalaDeCinza": true,
+      "height": 120
     },
     {
       "url": "/revi",
