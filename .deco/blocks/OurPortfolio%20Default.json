@@ -6,28 +6,33 @@
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/d8f1e476-7cf1-47e7-8fb1-2b138747720d",
       "label": "agroforte",
       "width": 190.81,
-      "height": 85.98
+      "height": 85.98,
+      "opacityValue": "!opacity-30",
+      "ativarEscalaDeCinza": false
     },
     {
       "url": "/bakerytech",
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/2fe3201b-c838-4f62-92c5-2fbef4983958",
       "label": "bakery tech",
       "width": 190.81,
-      "height": 98.13
+      "height": 98.13,
+      "opacityValue": "!opacity-30"
     },
     {
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/662f0c3a-14ec-40ef-9d58-500ba05f1871",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/f105d2ce-2b00-4e6c-a398-facb6bbaa8dc",
       "label": "Deco",
       "width": 160,
-      "height": 160,
-      "url": "/deco"
+      "height": 80,
+      "url": "/deco",
+      "opacityValue": "!opacity-30"
     },
     {
       "url": "/dinerama",
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/daed17bd-19fd-43f2-a528-02c0fd7115cd",
       "label": "dinerama",
       "width": 241.27,
-      "height": 72.03
+      "height": 72.03,
+      "opacityValue": "!opacity-30"
     },
     {
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/a5e8fcb2-a9eb-47da-b66f-1c9c38828cbf",
@@ -35,54 +40,55 @@
       "width": 190.81,
       "height": 107.25,
       "url": "/inner-ai",
-      "ativarEscalaDeCinza": false
-    },
-    {
-      "url": "/falco",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/eefcba2e-7858-42da-b66b-5e6ff41db668",
-      "label": "falco",
-      "width": 190.8,
-      "height": 69.78
+      "ativarEscalaDeCinza": false,
+      "opacityValue": "!opacity-30"
     },
     {
       "url": "/revi",
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/eb5d8e74-76c5-4008-badd-b4bce15d4dae",
       "label": "Revi",
       "width": 160,
-      "ativarEscalaDeCinza": true,
-      "height": 160
+      "height": 160,
+      "opacityValue": "!opacity-30",
+      "ativarEscalaDeCinza": true
     },
     {
       "url": "/soutag",
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/24af954d-43de-488c-a855-9a34d1274ad4",
       "label": "Soutag",
       "width": 100,
+      "ativarEscalaDeCinza": true,
       "height": 80,
-      "ativarEscalaDeCinza": true
+      "opacityValue": "!opacity-30"
     },
     {
       "url": "/superautor",
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/c6c0fd32-952d-46cc-a70c-e5d99f52cd18",
       "label": "superautor",
       "width": 140.36,
-      "height": 122
+      "height": 122,
+      "opacityValue": "!opacity-30"
     },
     {
+      "url": "/zarv",
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/8b2653c6-0567-41f1-b1ee-426f9adf2eb6",
+      "label": "zarv",
       "width": 190.8,
       "height": 63.26,
-      "url": "/zarv",
-      "label": "zarv"
+      "opacityValue": "!opacity-30"
     },
     {
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/985d4530-d3c4-453d-8568-85f6c65502d9",
       "width": 130,
       "height": 120,
-      "label": "zax",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/985d4530-d3c4-453d-8568-85f6c65502d9",
       "url": "/zax",
+      "label": "zax",
+      "opacityValue": "!opacity-30",
       "ativarEscalaDeCinza": true
     },
-    {}
+    {
+      "opacityValue": "!opacity-30"
+    }
   ],
   "title": "our portfolio",
   "__resolveType": "site/sections/Main/OurPortfolio.tsx"
