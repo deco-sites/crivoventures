@@ -44,22 +44,31 @@
       "opacityValue": "!opacity-30"
     },
     {
+      "url": "/lerian",
+      "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/crivoventures/256cc06b-ce95-4f45-94ec-de2b5b69a6dd/logos-para-site-(2).png",
+      "label": "Lerian",
+      "width": 190.81,
+      "height": 200,
+      "opacityValue": "!opacity-50",
+      "ativarEscalaDeCinza": true
+    },
+    {
       "url": "/revi",
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/eb5d8e74-76c5-4008-badd-b4bce15d4dae",
       "label": "Revi",
       "width": 160,
+      "ativarEscalaDeCinza": true,
       "height": 160,
-      "opacityValue": "!opacity-30",
-      "ativarEscalaDeCinza": true
+      "opacityValue": "!opacity-30"
     },
     {
       "url": "/soutag",
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/24af954d-43de-488c-a855-9a34d1274ad4",
       "label": "Soutag",
       "width": 100,
-      "ativarEscalaDeCinza": true,
       "height": 80,
-      "opacityValue": "!opacity-30"
+      "opacityValue": "!opacity-30",
+      "ativarEscalaDeCinza": true
     },
     {
       "url": "/superautor",
@@ -70,20 +79,20 @@
       "opacityValue": "!opacity-30"
     },
     {
-      "url": "/zarv",
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/8b2653c6-0567-41f1-b1ee-426f9adf2eb6",
-      "label": "zarv",
       "width": 190.8,
       "height": 63.26,
+      "url": "/zarv",
+      "label": "zarv",
       "opacityValue": "!opacity-30"
     },
     {
+      "opacityValue": "!opacity-30",
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/985d4530-d3c4-453d-8568-85f6c65502d9",
       "width": 130,
       "height": 120,
       "url": "/zax",
       "label": "zax",
-      "opacityValue": "!opacity-30",
       "ativarEscalaDeCinza": true
     },
     {
