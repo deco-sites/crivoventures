@@ -26,7 +26,7 @@
     {
       "link": {
         "label": "back",
-        "href": "portfolio"
+        "href": "/portfolio"
       },
       "logo": {
         "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/d0f3401f-d89c-4744-ab34-806f6a96b658",
