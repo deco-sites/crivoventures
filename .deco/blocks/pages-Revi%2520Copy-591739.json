@@ -29,13 +29,13 @@
         "label": "back"
       },
       "logo": {
-        "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/24af954d-43de-488c-a855-9a34d1274ad4",
+        "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/crivoventures/cc5f9c8f-17e3-410a-8373-a2c9e9a3941d/1.png",
         "label": "Soutag",
-        "width": 160,
-        "height": 160
+        "width": 300,
+        "height": 150
       },
       "image": {
-        "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/d18b3393-abfb-48f5-b292-5874e8028833",
+        "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/crivoventures/30d3d371-ce86-4328-99c6-6c90444c9be6/Soutag_Helder-e-Rafael-2.JPG",
         "label": "founders",
         "width": 492.86,
         "height": 338.9

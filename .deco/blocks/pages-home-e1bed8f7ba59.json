@@ -1,1 +1,31 @@
-{"name":"Home","path":"/","sections":[{"__resolveType":"SEO Default"},{"__resolveType":"Cookie Default"},{"__resolveType":"Header Default"},{"__resolveType":"Main Default"},{"__resolveType":"OurPortfolio Default"},{"__resolveType":"OurTeam Default"},{"__resolveType":"CoreValues Default"},{"__resolveType":"Footer Default"}],"__resolveType":"$live/pages/LivePage.tsx"}
+{
+  "name": "Home",
+  "path": "/",
+  "sections": [
+    {
+      "__resolveType": "SEO Default"
+    },
+    {
+      "__resolveType": "Cookie Default"
+    },
+    {
+      "__resolveType": "Header Default"
+    },
+    {
+      "__resolveType": "Main Default"
+    },
+    {
+      "__resolveType": "OurPortfolio Default"
+    },
+    {
+      "__resolveType": "OurTeam Default"
+    },
+    {
+      "__resolveType": "CoreValues Default"
+    },
+    {
+      "__resolveType": "Footer Default"
+    }
+  ],
+  "__resolveType": "$live/pages/LivePage.tsx"
+}
