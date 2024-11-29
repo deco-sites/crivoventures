@@ -7,8 +7,8 @@
       "label": "agroforte",
       "width": 190.81,
       "height": 85.98,
-      "opacityValue": "!opacity-30",
-      "ativarEscalaDeCinza": false
+      "opacityValue": "!opacity-80",
+      "ativarEscalaDeCinza": true
     },
     {
       "url": "/bakerytech",
@@ -16,7 +16,8 @@
       "label": "bakery tech",
       "width": 190.81,
       "height": 98.13,
-      "opacityValue": "!opacity-30"
+      "opacityValue": "!opacity-80",
+      "ativarEscalaDeCinza": true
     },
     {
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/662f0c3a-14ec-40ef-9d58-500ba05f1871",
@@ -24,7 +25,8 @@
       "width": 160,
       "height": 180,
       "url": "/deco",
-      "opacityValue": "!opacity-30"
+      "opacityValue": "!opacity-80",
+      "ativarEscalaDeCinza": true
     },
     {
       "url": "/dinerama",
@@ -32,7 +34,8 @@
       "label": "dinerama",
       "width": 241.27,
       "height": 72.03,
-      "opacityValue": "!opacity-30"
+      "opacityValue": "!opacity-90",
+      "ativarEscalaDeCinza": true
     },
     {
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/a5e8fcb2-a9eb-47da-b66f-1c9c38828cbf",
@@ -40,8 +43,8 @@
       "width": 190.81,
       "height": 107.25,
       "url": "/inner-ai",
-      "ativarEscalaDeCinza": false,
-      "opacityValue": "!opacity-30"
+      "ativarEscalaDeCinza": true,
+      "opacityValue": "!opacity-90"
     },
     {
       "url": "/lerian",
@@ -49,7 +52,7 @@
       "label": "Lerian",
       "width": 190.81,
       "height": 200,
-      "opacityValue": "!opacity-50",
+      "opacityValue": "!opacity-80",
       "ativarEscalaDeCinza": true
     },
     {
@@ -59,7 +62,7 @@
       "width": 160,
       "ativarEscalaDeCinza": true,
       "height": 160,
-      "opacityValue": "!opacity-30"
+      "opacityValue": "!opacity-80"
     },
     {
       "url": "/soutag",
@@ -67,7 +70,7 @@
       "label": "Soutag",
       "width": 100,
       "height": 80,
-      "opacityValue": "!opacity-30",
+      "opacityValue": "!opacity-80",
       "ativarEscalaDeCinza": true
     },
     {
@@ -76,7 +79,7 @@
       "label": "superautor",
       "width": 140.36,
       "height": 122,
-      "opacityValue": "!opacity-30"
+      "opacityValue": "!opacity-80"
     },
     {
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/8b2653c6-0567-41f1-b1ee-426f9adf2eb6",
@@ -84,10 +87,10 @@
       "height": 63.26,
       "url": "/zarv",
       "label": "zarv",
-      "opacityValue": "!opacity-30"
+      "opacityValue": "!opacity-80"
     },
     {
-      "opacityValue": "!opacity-30",
+      "opacityValue": "!opacity-80",
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/985d4530-d3c4-453d-8568-85f6c65502d9",
       "width": 130,
       "height": 120,
