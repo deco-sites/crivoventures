@@ -11,91 +11,82 @@
       "ativarEscalaDeCinza": true
     },
     {
-      "url": "/bakerytech",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/2fe3201b-c838-4f62-92c5-2fbef4983958",
-      "label": "bakery tech",
-      "width": 190.81,
-      "height": 98.13,
-      "opacityValue": "!opacity-80",
-      "ativarEscalaDeCinza": true
-    },
-    {
+      "url": "/deco",
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/662f0c3a-14ec-40ef-9d58-500ba05f1871",
       "label": "Deco",
       "width": 160,
       "height": 180,
-      "url": "/deco",
       "opacityValue": "!opacity-80",
       "ativarEscalaDeCinza": true
     },
     {
-      "url": "/dinerama",
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/daed17bd-19fd-43f2-a528-02c0fd7115cd",
       "label": "dinerama",
       "width": 241.27,
       "height": 72.03,
+      "url": "/dinerama",
       "opacityValue": "!opacity-90",
       "ativarEscalaDeCinza": true
     },
     {
+      "url": "/inner-ai",
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/a5e8fcb2-a9eb-47da-b66f-1c9c38828cbf",
       "label": "Inner Ai",
       "width": 190.81,
       "height": 107.25,
-      "url": "/inner-ai",
-      "ativarEscalaDeCinza": true,
-      "opacityValue": "!opacity-90"
+      "opacityValue": "!opacity-90",
+      "ativarEscalaDeCinza": true
     },
     {
-      "url": "/lerian",
       "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/crivoventures/256cc06b-ce95-4f45-94ec-de2b5b69a6dd/logos-para-site-(2).png",
       "label": "Lerian",
       "width": 190.81,
       "height": 200,
-      "opacityValue": "!opacity-80",
-      "ativarEscalaDeCinza": true
+      "url": "/lerian",
+      "ativarEscalaDeCinza": true,
+      "opacityValue": "!opacity-80"
     },
     {
       "url": "/revi",
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/eb5d8e74-76c5-4008-badd-b4bce15d4dae",
       "label": "Revi",
       "width": 160,
-      "ativarEscalaDeCinza": true,
       "height": 160,
-      "opacityValue": "!opacity-80"
+      "opacityValue": "!opacity-80",
+      "ativarEscalaDeCinza": true
     },
     {
       "url": "/soutag",
       "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/crivoventures/cc5f9c8f-17e3-410a-8373-a2c9e9a3941d/1.png",
       "label": "Soutag",
       "width": 1800,
-      "opacityValue": "!opacity-50",
       "ativarEscalaDeCinza": true,
-      "height": 600
+      "height": 600,
+      "opacityValue": "!opacity-50"
     },
     {
       "url": "/superautor",
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/c6c0fd32-952d-46cc-a70c-e5d99f52cd18",
       "label": "superautor",
       "width": 140.36,
-      "height": 122,
-      "opacityValue": "!opacity-80"
+      "opacityValue": "!opacity-80",
+      "height": 122
     },
     {
+      "url": "/zarv",
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/8b2653c6-0567-41f1-b1ee-426f9adf2eb6",
+      "label": "zarv",
       "width": 190.8,
       "height": 63.26,
-      "url": "/zarv",
-      "label": "zarv",
       "opacityValue": "!opacity-80"
     },
     {
-      "opacityValue": "!opacity-80",
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/985d4530-d3c4-453d-8568-85f6c65502d9",
       "width": 130,
       "height": 120,
       "url": "/zax",
       "label": "zax",
+      "opacityValue": "!opacity-80",
       "ativarEscalaDeCinza": true
     },
     {
