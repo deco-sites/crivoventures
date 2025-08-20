@@ -9,7 +9,29 @@
       "__resolveType": "Cookie Default"
     },
     {
-      "__resolveType": "Header Default"
+      "__resolveType": "site/sections/Header/Header.tsx",
+      "alt": "logo",
+      "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/e0f2ac1e-b0bc-43a2-9d32-88c86c545a71",
+      "links": [
+        {
+          "url": "#portfolio",
+          "label": "our portfolio"
+        },
+        {
+          "url": "#our-team",
+          "label": "our team"
+        },
+        {
+          "url": "#core",
+          "label": "core values"
+        },
+        {
+          "url": "#contact",
+          "label": "contact"
+        }
+      ],
+      "hasMenu": true,
+      "linkLogo": "/"
     },
     {
       "__resolveType": "Main Default"

@@ -47,50 +47,55 @@
       "opacityValue": "!opacity-80"
     },
     {
+      "url": "/liquid",
+      "image": "https://assets.decocache.com/crivoventures/6f954d12-2561-4b38-8d9e-bb70426d8342/Liquid.png",
+      "label": "Liquid",
+      "width": 150,
+      "height": 110,
+      "opacityValue": "!opacity-30"
+    },
+    {
       "url": "/revi",
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/eb5d8e74-76c5-4008-badd-b4bce15d4dae",
       "label": "Revi",
       "width": 160,
+      "ativarEscalaDeCinza": true,
       "height": 160,
-      "opacityValue": "!opacity-80",
-      "ativarEscalaDeCinza": true
+      "opacityValue": "!opacity-80"
     },
     {
       "url": "/soutag",
       "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/crivoventures/cc5f9c8f-17e3-410a-8373-a2c9e9a3941d/1.png",
       "label": "Soutag",
-      "width": 1800,
-      "ativarEscalaDeCinza": true,
+      "opacityValue": "!opacity-50",
       "height": 600,
-      "opacityValue": "!opacity-50"
+      "ativarEscalaDeCinza": true,
+      "width": 1500
     },
     {
       "url": "/superautor",
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/c6c0fd32-952d-46cc-a70c-e5d99f52cd18",
       "label": "superautor",
       "width": 140.36,
-      "opacityValue": "!opacity-80",
-      "height": 122
-    },
-    {
-      "url": "/zarv",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/8b2653c6-0567-41f1-b1ee-426f9adf2eb6",
-      "label": "zarv",
-      "width": 190.8,
-      "height": 63.26,
+      "height": 122,
       "opacityValue": "!opacity-80"
     },
     {
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/8b2653c6-0567-41f1-b1ee-426f9adf2eb6",
+      "width": 190.8,
+      "height": 63.26,
+      "url": "/zarv",
+      "label": "zarv",
+      "opacityValue": "!opacity-80"
+    },
+    {
+      "opacityValue": "!opacity-80",
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/985d4530-d3c4-453d-8568-85f6c65502d9",
       "width": 130,
       "height": 120,
-      "url": "/zax",
       "label": "zax",
-      "opacityValue": "!opacity-80",
+      "url": "/zax",
       "ativarEscalaDeCinza": true
-    },
-    {
-      "opacityValue": "!opacity-30"
     }
   ],
   "title": "our portfolio",

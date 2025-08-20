@@ -1,0 +1,47 @@
+{
+  "name": "Liquid",
+  "path": "/liquid",
+  "sections": [
+    {
+      "type": "website",
+      "title": "lerian — crivo ventures",
+      "context": null,
+      "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/b9765b16-9dd5-4247-9358-82ce2160f122",
+      "__resolveType": "deco-sites/std/sections/SEO.tsx"
+    },
+    {
+      "__resolveType": "Cookie Default"
+    },
+    {
+      "alt": "logo",
+      "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/123c659f-4e8b-4db3-8d19-a1c1e1ff6396",
+      "linkLogo": "/",
+      "__resolveType": "site/sections/Header/Header.tsx"
+    },
+    {
+      "link": {
+        "href": "/",
+        "label": "back"
+      },
+      "logo": {
+        "src": "https://assets.decocache.com/crivoventures/6f954d12-2561-4b38-8d9e-bb70426d8342/Liquid.png",
+        "label": "lerian",
+        "width": 240,
+        "height": 75
+      },
+      "about": "<p><strong><span style=\"color: rgb(23, 75, 40)\">why did we invest in</span><em><span style=\"color: rgb(23, 75, 40)\"> </span></em><span style=\"color: rgb(23, 75, 40)\">Liquid?</span></strong></p><p><span style=\"color: rgb(23, 75, 40)\"><br></span></p><p><span style=\"color: rgb(23, 75, 40)\">Liquid is a real estate fintech led by Thiago Yaak, Luiza Caram, and Odair, a team that brings together decades of expertise in AI, credit infrastructure, and the real estate market. Our decision to back them was based on three pillars: team, market, and product.</span></p><p></p><p><span style=\"color: rgb(23, 75, 40)\">Brazil’s real estate sector, especially in the mid- to low-income housing segments, remains largely under-digitized. Developers often bear the credit risk early in the buyer journey, long before bank financing is formalized. Recent structural shifts, such as the expansion of Minha Casa Minha Vida, the growth of pro-soluto financing, and tighter access to capital, have amplified the need for smarter, scalable credit infrastructure.</span></p><p></p><p><span style=\"color: rgb(23, 75, 40)\">Liquid sits precisely at this intersection. Their platform combines real-time credit decisioning, automated portfolio monitoring, and a no-code credit builder, enabling developers to de-risk early-stage sales, improve portfolio quality, and unlock liquidity. By integrating credit bureau data, Open Finance, and proprietary scoring models, Liquid delivers instant approvals at the point of sale while continuously tracking buyer financial health until property delivery.</span></p><p></p><p><span style=\"color: rgb(23, 75, 40)\">The market potential is significant: improving cash flow predictability and reducing default risk directly impact a developer’s ability to grow. Liquid’s SaaS-based, API-driven infrastructure not only accelerates sales cycles but also enables integrations with CRMs, financial institutions, and notaries, making financing processes more efficient for all stakeholders.</span></p><p><span style=\"color: rgb(23, 75, 40)\">Finally, we believe great teams build great companies. Thiago’s deep technical expertise in AI and credit systems, Luiza’s proven track record in strategic partnerships and commercial operations, and Odair’s decades-long experience in credit cycle management position Liquid to become the go-to infrastructure layer for real estate financing&nbsp;in&nbsp;Brazil.</span></p>",
+      "image": {
+        "label": "team liquid",
+        "width": 492.86,
+        "height": 408.48,
+        "src": "https://assets.decocache.com/crivoventures/5278b0c3-9d15-41fb-b0ba-11b23ff7da71/Imagem-do-WhatsApp-de-2025-08-20-a(s)-10.41.53_f16c907b.jpg"
+      },
+      "details": "<p><strong><span style=\"color: rgb(23, 75, 40)\">Real estate fintech that ensures continuous liquidity in real estate projects. They optimize sales, improve portfolios, and unlock value for developers and CFOs, making access to capital faster&nbsp;and&nbsp;smarter.<br><br>Founders: </span></strong><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://www.linkedin.com/in/yaak/\"><span style=\"color: rgb(23, 75, 40)\">Thiago Yaak</span></a><span style=\"color: rgb(23, 75, 40)\">,</span><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://www.linkedin.com/in/luiza-ribeiro-caram-226024142/\"><span style=\"color: rgb(23, 75, 40)\"> Luiza Caram</span></a><span style=\"color: rgb(23, 75, 40)\"> and </span><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://www.linkedin.com/in/omofato/\"><span style=\"color: rgb(23, 75, 40)\">Odair&nbsp;Mofato</span></a><br><br><strong><span style=\"color: rgb(23, 75, 40)\">Website: </span></strong><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://lerian.studio\"><u><span style=\"color: rgb(209, 115, 76)\">https://beliquid.ai</span></u></a></p>",
+      "__resolveType": "site/sections/Main/About.tsx"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
