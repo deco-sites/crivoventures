@@ -1,0 +1,44 @@
+{
+  "name": "Nuvia",
+  "path": "/nuvia",
+  "sections": [
+    {
+      "type": "website",
+      "title": "nuvia — crivo ventures",
+      "context": null,
+      "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/b9765b16-9dd5-4247-9358-82ce2160f122",
+      "__resolveType": "deco-sites/std/sections/SEO.tsx"
+    },
+    {
+      "__resolveType": "Cookie Default"
+    },
+    {
+      "alt": "logo",
+      "logo": "https://assets.decocache.com/crivoventures/5d99fa0c-9231-41bb-ad55-4113656dea79/nuvia-logo-horizontal-black-(1).png",
+      "linkLogo": "/",
+      "__resolveType": "site/sections/Header/Header.tsx"
+    },
+    {
+      "link": {
+        "href": "/",
+        "label": "back"
+      },
+      "logo": {
+        "src": "https://assets.decocache.com/crivoventures/5d99fa0c-9231-41bb-ad55-4113656dea79/nuvia-logo-horizontal-black-(1).png",
+        "label": "nuvia",
+        "width": 238.98,
+        "height": 95.37
+      },
+      "about": "<p><strong><span style=\"color: rgb(23, 75, 40)\">why did we invest in Nuvia?</span></strong></p><p><strong><span style=\"color: rgb(23, 75, 40)\"><br></span></strong></p><p><span>Nuvia is building a Revenue Operating System for B2B companies in Latin America, combining proprietary data, artificial intelligence, and automated execution to solve one of the region’s most structural growth challenges: generating and converting revenue in an environment of fragmented data, disconnected channels, and high operational costs.</span></p><p><span>&nbsp;</span></p><p><span>Rather than being another point solution or an “AI SDR,” Nuvia positions itself as an operational layer above the CRM — a true System of Action. Its platform unifies inbound, outbound, lead qualification, and meeting scheduling into a single, actionable pipeline, powered by AI agents that continuously learn from every interaction.</span></p><p><span>&nbsp;</span></p><p><span>A core differentiator is Nuvia’s Data Layer built for the Latin American reality. In a market where B2B data is often incomplete and unreliable, Nuvia connects multiple sources, keeps company and contact information up to date, and enables its AI agents to operate with real context — especially across critical channels such as WhatsApp and LinkedIn.</span></p><p><span>&nbsp;</span></p><p><span>We believe Nuvia applies AI where it creates clear and measurable impact: higher conversion rates, lower sales and marketing costs, and increased productivity for revenue teams. Early customer results point to strong ROI and validate the urgency of the problem being addressed.</span></p><p><span>&nbsp;</span></p><p><span>Beyond the product, the founding team brings deep experience across go-to-market, data infrastructure, and engineering, with a pragmatic understanding of what it takes to scale B2B sales in Latin America. This combination is essential to building durable infrastructure, not just features.</span></p><p><span>&nbsp;</span></p><p><span>We invested in Nuvia because we believe that companies creating invisible growth infrastructure in emerging markets can capture disproportionate long-term value. Nuvia is well positioned to become a foundational Revenue Operations layer for B2B companies across Latin America.</span></p>",
+      "image": {
+        "src": "https://assets.decocache.com/crivoventures/7ce798fc-3d32-4bfc-9d94-22ec370fc5bf/Nuvia12.jpg",
+        "label": "team nuvia",
+        "width": 492.86,
+        "height": 338.9
+      },
+      "details": "<p><strong><span style=\"color: rgb(23, 75, 40)\">Nuvia is a sales automation platform for B2B companies, built to run both Inbound and Outbound growth motions across the channels that matter most in Latin America: WhatsApp, Email, and LinkedIn</span></strong></p><p><strong><span style=\"color: rgb(23, 75, 40)\">Founders:</span></strong><span style=\"color: rgb(23, 75, 40)\"> </span><a target=\"_blank\" rel=\"noopener\" href=\"https://www.linkedin.com/in/felipe-d%C2%B4avila-7325574/\"><span style=\"color: rgb(23, 75, 40)\">John Paz</span></a><span style=\"color: rgb(23, 75, 40)\">, </span><a target=\"_blank\" rel=\"noopener\" href=\"https://www.linkedin.com/in/cadumascarenhas-59a1a8/\"><span style=\"color: rgb(23, 75, 40)\">Arthur Sorelli, Bernardo Couto, João Gabriel Santos e Yuri Kaminski</span></a></p><p><strong><span style=\"color: rgb(23, 75, 40)\">Website:</span></strong><a target=\"_blank\" rel=\"noopener\" href=\"https://meuagroforte.com.br/\"><u><span style=\"color: rgb(209, 115, 76)\"> </span></u></a><a target=\"_blank\" rel=\"noopener\" href=\"https://www.nuvia.co/\"><u><span style=\"color: rgb(209, 115, 76)\">https://www.nuvia.co/﻿</span></u></a></p><p><strong><span style=\"color: rgb(23, 75, 40)\">Year of Investment:</span></strong><span style=\"color: rgb(23, 75, 40)\"> 2026</span></p>",
+      "__resolveType": "site/sections/Main/About.tsx"
+    }
+  ],
+  "__resolveType": "$live/pages/LivePage.tsx"
+}

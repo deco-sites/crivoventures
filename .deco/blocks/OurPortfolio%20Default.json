@@ -55,47 +55,56 @@
       "opacityValue": "!opacity-30"
     },
     {
+      "url": "/nuvia",
+      "image": "https://assets.decocache.com/crivoventures/5d99fa0c-9231-41bb-ad55-4113656dea79/nuvia-logo-horizontal-black-(1).png",
+      "label": "nuvia",
+      "width": 150,
+      "ativarEscalaDeCinza": true,
+      "height": 130,
+      "opacityValue": "!opacity-30"
+    },
+    {
       "url": "/revi",
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/eb5d8e74-76c5-4008-badd-b4bce15d4dae",
       "label": "Revi",
-      "width": 160,
-      "ativarEscalaDeCinza": true,
+      "opacityValue": "!opacity-80",
       "height": 160,
-      "opacityValue": "!opacity-80"
+      "ativarEscalaDeCinza": true,
+      "width": 160
     },
     {
       "url": "/soutag",
       "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/crivoventures/cc5f9c8f-17e3-410a-8373-a2c9e9a3941d/1.png",
       "label": "Soutag",
-      "opacityValue": "!opacity-50",
+      "width": 1500,
       "height": 600,
-      "ativarEscalaDeCinza": true,
-      "width": 1500
+      "opacityValue": "!opacity-50",
+      "ativarEscalaDeCinza": true
     },
     {
-      "url": "/superautor",
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/c6c0fd32-952d-46cc-a70c-e5d99f52cd18",
-      "label": "superautor",
       "width": 140.36,
       "height": 122,
-      "opacityValue": "!opacity-80"
-    },
-    {
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/8b2653c6-0567-41f1-b1ee-426f9adf2eb6",
-      "width": 190.8,
-      "height": 63.26,
-      "url": "/zarv",
-      "label": "zarv",
+      "url": "/superautor",
+      "label": "superautor",
       "opacityValue": "!opacity-80"
     },
     {
       "opacityValue": "!opacity-80",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/985d4530-d3c4-453d-8568-85f6c65502d9",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/8b2653c6-0567-41f1-b1ee-426f9adf2eb6",
+      "width": 190.8,
+      "height": 63.26,
+      "label": "zarv",
+      "url": "/zarv"
+    },
+    {
+      "opacityValue": "!opacity-80",
       "width": 130,
       "height": 120,
+      "ativarEscalaDeCinza": true,
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/985d4530-d3c4-453d-8568-85f6c65502d9",
       "label": "zax",
-      "url": "/zax",
-      "ativarEscalaDeCinza": true
+      "url": "/zax"
     }
   ],
   "title": "our portfolio",
