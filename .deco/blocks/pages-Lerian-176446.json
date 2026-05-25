@@ -6,7 +6,7 @@
       "type": "website",
       "title": "lerian — crivo ventures",
       "context": null,
-      "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/b9765b16-9dd5-4247-9358-82ce2160f122",
+      "favicon": "https://decoims.com/crivoventures/5c2f3ca1-0216-428c-b870-6ab51147053b/b9765b16_b9765b16-9dd5-4247-9358-82ce2160f122.png",
       "__resolveType": "deco-sites/std/sections/SEO.tsx"
     },
     {
@@ -14,7 +14,7 @@
     },
     {
       "alt": "logo",
-      "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/123c659f-4e8b-4db3-8d19-a1c1e1ff6396",
+      "logo": "https://decoims.com/crivoventures/baa10b1b-9246-406e-ae98-fb678bb10f36/123c659f_123c659f-4e8b-4db3-8d19-a1c1e1ff6396.png",
       "linkLogo": "/",
       "__resolveType": "site/sections/Header/Header.tsx"
     },
@@ -24,7 +24,7 @@
         "label": "back"
       },
       "logo": {
-        "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/crivoventures/aa468866-6cb3-4074-8dcc-33ad245f7b61/Lerian-Primary-Base.png",
+        "src": "https://decoims.com/crivoventures/d3be4a03-4592-41da-aad9-67f97073bc63/aa468866_aa468866-6cb3-4074-8dcc-33ad245f7b61.png",
         "label": "lerian",
         "width": 237.35,
         "height": 60.58
@@ -34,7 +34,7 @@
         "label": "team lerian",
         "width": 492.86,
         "height": 408.48,
-        "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/crivoventures/7857c5e1-40bc-4417-b037-06e331487807/Gustavo-31.webp"
+        "src": "https://decoims.com/crivoventures/0b6eb4af-28f8-42ec-a051-13fde7172f31/7857c5e1_7857c5e1-40bc-4417-b037-06e331487807.webp"
       },
       "details": "<p class=\"preFade fadeIn\"><span style=\"color: rgb(23, 75, 40);\" data-mce-style=\"color: rgb(23, 75, 40);\"><strong>Fintech developing the world’s first open-source ledger for core banking.<br><br>Founder: </strong><a href=\"https://www.linkedin.com/in/fredcamaral/?originalSubdomain=br\" target=\"_blank\" data-mce-href=\"https://www.linkedin.com/in/fredcamaral/?originalSubdomain=br\" style=\"color: rgb(23, 75, 40);\" data-mce-style=\"color: rgb(23, 75, 40);\" rel=\"noopener\"><span class=\"sqsrte-text-color--black\">Fred Amaral</span></a></span><br><br><span style=\"color: rgb(23, 75, 40);\" data-mce-style=\"color: rgb(23, 75, 40);\"><strong>Website: </strong><span style=\"text-decoration: underline;\" data-mce-style=\"text-decoration: underline;\"><span style=\"color: rgb(209, 115, 76); text-decoration: underline;\" data-mce-style=\"color: rgb(209, 115, 76); text-decoration: underline;\"><a href=\"https://lerian.studio\" target=\"_blank\" data-mce-href=\"https://lerian.studio\" style=\"color: rgb(209, 115, 76); text-decoration: underline;\" data-mce-style=\"color: rgb(209, 115, 76); text-decoration: underline;\" data-mce-selected=\"inline-boundary\">https://lerian.studio</a></span></span></span></p>",
       "__resolveType": "site/sections/Main/About.tsx"

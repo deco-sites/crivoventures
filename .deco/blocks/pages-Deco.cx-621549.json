@@ -6,7 +6,7 @@
       "type": "website",
       "title": "deco.cx — crivo ventures",
       "context": null,
-      "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/b9765b16-9dd5-4247-9358-82ce2160f122",
+      "favicon": "https://decoims.com/crivoventures/5c2f3ca1-0216-428c-b870-6ab51147053b/b9765b16_b9765b16-9dd5-4247-9358-82ce2160f122.png",
       "__resolveType": "deco-sites/std/sections/SEO.tsx"
     },
     {
@@ -14,7 +14,7 @@
     },
     {
       "alt": "logo",
-      "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/123c659f-4e8b-4db3-8d19-a1c1e1ff6396",
+      "logo": "https://decoims.com/crivoventures/baa10b1b-9246-406e-ae98-fb678bb10f36/123c659f_123c659f-4e8b-4db3-8d19-a1c1e1ff6396.png",
       "linkLogo": "/",
       "__resolveType": "site/sections/Header/Header.tsx"
     },
@@ -24,13 +24,13 @@
         "label": "back"
       },
       "logo": {
-        "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/ca5c5b88-f67c-48f4-bb05-a96a0242b96b",
+        "src": "https://decoims.com/crivoventures/4f0b3288-3b57-43e6-8d02-6b88291304f3/ca5c5b88_ca5c5b88-f67c-48f4-bb05-a96a0242b96b.png",
         "label": "deco.cx",
         "width": 160,
         "height": 160
       },
       "image": {
-        "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/0074a40a-e339-4e93-9b6b-e7f4db87bf96",
+        "src": "https://decoims.com/crivoventures/b7ae5904-42c1-493b-a86c-d8dd15578992/0074a40a_0074a40a-e339-4e93-9b6b-e7f4db87bf96.png",
         "label": "founders",
         "width": 492.86,
         "height": 338.9
