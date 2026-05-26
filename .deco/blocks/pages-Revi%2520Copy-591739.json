@@ -6,7 +6,7 @@
       "type": "website",
       "title": "soutag — crivo ventures",
       "context": null,
-      "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/b9765b16-9dd5-4247-9358-82ce2160f122",
+      "favicon": "https://decoims.com/crivoventures/5c2f3ca1-0216-428c-b870-6ab51147053b/b9765b16_b9765b16-9dd5-4247-9358-82ce2160f122.png",
       "__resolveType": "deco-sites/std/sections/SEO.tsx"
     },
     {
@@ -16,7 +16,7 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "alt": "logo",
-        "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/186c80a1-661a-499f-a55f-516d4b4ea537",
+        "logo": "https://decoims.com/crivoventures/61cb52f3-e8e8-4318-9ac4-f6e99a591461/186c80a1_186c80a1-661a-499f-a55f-516d4b4ea537.png",
         "__resolveType": "site/sections/Header/Header.tsx",
         "hasMenu": true,
         "links": [],
@@ -29,13 +29,13 @@
         "label": "back"
       },
       "logo": {
-        "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/crivoventures/cc5f9c8f-17e3-410a-8373-a2c9e9a3941d/1.png",
+        "src": "https://decoims.com/crivoventures/50e3b1a4-46a4-4755-b561-ec8d87d3a615/cc5f9c8f_cc5f9c8f-17e3-410a-8373-a2c9e9a3941d.png",
         "label": "Soutag",
         "width": 300,
         "height": 150
       },
       "image": {
-        "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/crivoventures/30d3d371-ce86-4328-99c6-6c90444c9be6/Soutag_Helder-e-Rafael-2.JPG",
+        "src": "https://decoims.com/crivoventures/5398cc0a-7eae-43c5-b90d-2c35fabaa86c/30d3d371_30d3d371-ce86-4328-99c6-6c90444c9be6.jpg",
         "label": "founders",
         "width": 492.86,
         "height": 338.9

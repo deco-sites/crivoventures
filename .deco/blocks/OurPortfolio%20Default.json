@@ -3,7 +3,7 @@
   "logo": [
     {
       "url": "/agroforte",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/d8f1e476-7cf1-47e7-8fb1-2b138747720d",
+      "image": "https://decoims.com/crivoventures/648946c3-a399-4ce8-ad58-ef60aa7566c3/d8f1e476_d8f1e476-7cf1-47e7-8fb1-2b138747720d.png",
       "label": "agroforte",
       "width": 190.81,
       "height": 85.98,
@@ -12,7 +12,7 @@
     },
     {
       "url": "/deco",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/662f0c3a-14ec-40ef-9d58-500ba05f1871",
+      "image": "https://decoims.com/crivoventures/7627366c-8053-43fc-8ea8-80f1ba4552c5/662f0c3a_662f0c3a-14ec-40ef-9d58-500ba05f1871.png",
       "label": "Deco",
       "width": 160,
       "height": 180,
@@ -20,7 +20,7 @@
       "ativarEscalaDeCinza": true
     },
     {
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/daed17bd-19fd-43f2-a528-02c0fd7115cd",
+      "image": "https://decoims.com/crivoventures/b01db091-97ec-4bf4-8881-3ff2665ee988/daed17bd_daed17bd-19fd-43f2-a528-02c0fd7115cd.png",
       "label": "dinerama",
       "width": 241.27,
       "height": 72.03,
@@ -30,7 +30,7 @@
     },
     {
       "url": "/inner-ai",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/a5e8fcb2-a9eb-47da-b66f-1c9c38828cbf",
+      "image": "https://decoims.com/crivoventures/b6926cff-954b-4e66-be59-3fad9b54ba5a/a5e8fcb2_a5e8fcb2-a9eb-47da-b66f-1c9c38828cbf.jpg",
       "label": "Inner Ai",
       "width": 190.81,
       "height": 107.25,
@@ -65,7 +65,7 @@
     },
     {
       "url": "/revi",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/eb5d8e74-76c5-4008-badd-b4bce15d4dae",
+      "image": "https://decoims.com/crivoventures/2fdd8449-d7b0-4bb1-8c3c-f2d03ee6ed16/eb5d8e74_eb5d8e74-76c5-4008-badd-b4bce15d4dae.png",
       "label": "Revi",
       "opacityValue": "!opacity-80",
       "height": 160,
@@ -74,7 +74,7 @@
     },
     {
       "url": "/soutag",
-      "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/crivoventures/cc5f9c8f-17e3-410a-8373-a2c9e9a3941d/1.png",
+      "image": "https://decoims.com/crivoventures/50e3b1a4-46a4-4755-b561-ec8d87d3a615/cc5f9c8f_cc5f9c8f-17e3-410a-8373-a2c9e9a3941d.png",
       "label": "Soutag",
       "width": 1500,
       "height": 600,
@@ -82,7 +82,7 @@
       "ativarEscalaDeCinza": true
     },
     {
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/c6c0fd32-952d-46cc-a70c-e5d99f52cd18",
+      "image": "https://decoims.com/crivoventures/fd4b00e3-38fc-4f78-8757-d7efb6793ee6/c6c0fd32_c6c0fd32-952d-46cc-a70c-e5d99f52cd18.png",
       "width": 140.36,
       "height": 122,
       "url": "/superautor",
@@ -91,7 +91,7 @@
     },
     {
       "opacityValue": "!opacity-80",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/8b2653c6-0567-41f1-b1ee-426f9adf2eb6",
+      "image": "https://decoims.com/crivoventures/1acb9bf0-14cb-4ed0-9cd9-ff22c30ff0b2/8b2653c6_8b2653c6-0567-41f1-b1ee-426f9adf2eb6.png",
       "width": 190.8,
       "height": 63.26,
       "label": "zarv",
@@ -102,7 +102,7 @@
       "width": 130,
       "height": 120,
       "ativarEscalaDeCinza": true,
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2870/985d4530-d3c4-453d-8568-85f6c65502d9",
+      "image": "https://decoims.com/crivoventures/14801d81-60da-452a-a683-cfc455185878/985d4530_985d4530-d3c4-453d-8568-85f6c65502d9.png",
       "label": "zax",
       "url": "/zax"
     }
