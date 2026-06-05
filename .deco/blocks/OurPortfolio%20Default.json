@@ -105,6 +105,15 @@
       "image": "https://decoims.com/crivoventures/14801d81-60da-452a-a683-cfc455185878/985d4530_985d4530-d3c4-453d-8568-85f6c65502d9.png",
       "label": "zax",
       "url": "/zax"
+    },
+    {
+      "opacityValue": "!opacity-80",
+      "width": 180,
+      "height": 60,
+      "ativarEscalaDeCinza": false,
+      "image": "https://decoims.com/crivoventures/datamint-logo.png",
+      "label": "datamint",
+      "url": "/datamint"
     }
   ],
   "title": "our portfolio",

@@ -1,0 +1,47 @@
+{
+  "name": "Datamint",
+  "path": "/datamint",
+  "sections": [
+    {
+      "type": "website",
+      "title": "datamint — crivo ventures",
+      "context": null,
+      "favicon": "https://decoims.com/crivoventures/datamint-favicon.png",
+      "__resolveType": "deco-sites/std/sections/SEO.tsx"
+    },
+    {
+      "__resolveType": "Cookie Default"
+    },
+    {
+      "alt": "logo",
+      "logo": "https://decoims.com/crivoventures/datamint-logo.png",
+      "linkLogo": "/",
+      "__resolveType": "site/sections/Header/Header.tsx"
+    },
+    {
+      "link": {
+        "href": "/",
+        "label": "back"
+      },
+      "logo": {
+        "src": "https://decoims.com/crivoventures/datamint-logo.png",
+        "label": "datamint",
+        "width": 300,
+        "height": 85
+      },
+      "about": "<div class=\"fe-block fe-block-datamint\"><div class=\"sqs-block html-block sqs-block-html\"><div class=\"sqs-block-content\"><div class=\"sqs-html-content\"><p class=\"sqsrte-large preFade fadeIn\"><span style=\"color: rgb(23, 75, 40);\"><strong>why did we invest in Datamint?</strong></span></p><p class=\"sqsrte-large preFade fadeIn\"><span style=\"background-color: rgb(255, 255, 255); color: rgb(23, 75, 40);\"><br></span></p><p class=\"sqsrte-large preFade fadeIn\"><span style=\"background-color: rgb(255, 255, 255); color: rgb(23, 75, 40);\">Datamint develops digital transformation solutions for complex industrial environments, combining data analytics, artificial intelligence, data engineering, and UX design to identify business opportunities and elevate the decision-making capacity of its clients. The company is more than a platform: it is a team of engineers and researchers who run the full cycle — from understanding the operational reality on the ground, to engineering the data, to designing the products that turn it into decisions. The output of this process today is consolidated in a flagship platform, A360, but the engine behind it is the combination of people, methodology, and accumulated industrial know-how.</span></p><p class=\"sqsrte-large preFade fadeIn\"><span style=\"background-color: rgb(255, 255, 255); color: rgb(23, 75, 40);\"><br></span></p><p class=\"sqsrte-large preFade fadeIn\"><span style=\"background-color: rgb(255, 255, 255); color: rgb(23, 75, 40);\">We believe the market for deep industrial problems in Brazil — the operational complexity inside refineries, power grids, substations, and renewable plants — is structurally underserved. Brazilian SaaS and AI investment has concentrated on horizontal software, fintech, and consumer-adjacent verticals, leaving heavy industry to legacy SCADA vendors, generic ERPs, and consultancies that sell hours rather than systems. Generic LLMs cannot fill this gap: they hallucinate in environments where a single wrong decision carries financial, safety, and compliance consequences.</span></p><p class=\"sqsrte-large preFade fadeIn\"><span style=\"background-color: rgb(255, 255, 255); color: rgb(23, 75, 40);\"><br></span></p><p class=\"sqsrte-large preFade fadeIn\"><span style=\"background-color: rgb(255, 255, 255); color: rgb(23, 75, 40);\">This is not a market that can be cracked with a generic SaaS playbook. It rewards rigorous academic depth, real industrial trust, and the talent density required to translate operator intuition into machine-readable knowledge — and Datamint brings one of the rarest expressions of that profile we have seen in Brazil. Hélio Lopes, PhD in Mathematics, spent 30+ years at PUC-Rio leading the data science and computer graphics labs and has worked side-by-side with Petrobras since 1992. Tulio Ribeiro brings 20+ years of experience scaling Lanx into a leading Brazilian technology services firm. Around them sits a bench of 30 PhDs and Masters from PUC-Rio — a level of talent density that is uncommon in Brazil and essential to durable infrastructure rather than just features.</span></p><p class=\"sqsrte-large preFade fadeIn\"><span style=\"background-color: rgb(255, 255, 255); color: rgb(23, 75, 40);\"><br></span></p><p class=\"sqsrte-large preFade fadeIn\"><span style=\"background-color: rgb(255, 255, 255); color: rgb(23, 75, 40);\">This team's output is A360, an operational layer above SCADA, ERPs, and OT systems — a System of Action for plant managers, supervisors, and engineers. A360 unifies sensor data, manuals, regulation, and ERP context into a single explicit decision layer, powered by AI agents that operate on top of a domain ontology and continuously learn from every operational cycle. The proprietary MINT methodology and a multi-modal database (graph, time-series, geospatial, and document data) together deliver an architecture purpose-built for environments where hallucinations are not acceptable.</span></p><p class=\"sqsrte-large preFade fadeIn\"><span style=\"background-color: rgb(255, 255, 255); color: rgb(23, 75, 40);\"><br></span></p><p class=\"sqsrte-large preFade fadeIn\"><span style=\"background-color: rgb(255, 255, 255); color: rgb(23, 75, 40);\">Datamint applies AI where it creates clear and measurable impact: lower maintenance costs, higher asset uptime, and audit-ready automation of decisions previously trapped in the heads of senior operators. Early customer results — material savings on Petrobras refineries through Smart Tocha and a 5.77% efficiency gain in a solar plant pilot — validate both the ROI and the urgency of the problem.</span></p><p class=\"sqsrte-large preFade fadeIn\"><span style=\"background-color: rgb(255, 255, 255); color: rgb(23, 75, 40);\"><br></span></p><p class=\"sqsrte-large preFade fadeIn\"><span style=\"background-color: rgb(255, 255, 255); color: rgb(23, 75, 40);\">We invested in Datamint because companies that turn operator intuition into explicit, auditable, and reusable digital infrastructure in regulated industries can capture disproportionate long-term value. Datamint is well positioned to become a foundational Operational Intelligence layer for critical infrastructure across Latin America and global heavy industry.</span></p></div></div></div></div>",
+      "image": {
+        "label": "datamint team",
+        "width": 492.86,
+        "height": 408.48,
+        "src": "https://decoims.com/crivoventures/datamint-team.jpg"
+      },
+      "details": "<p class=\"preFade fadeIn\"><span style=\"color: rgb(23, 75, 40);\"><strong>Datamint develops digital transformation solutions using data analytics to identify business opportunities and increase the decision-making capabilities of its clients, through artificial intelligence, data engineering, and UX design.<br><br>Founders: </strong><a href=\"#\" target=\"_blank\" style=\"color: rgb(23, 75, 40);\" rel=\"noopener\"><span class=\"sqsrte-text-color--black\">Hélio Côrtes & Tulio Ribeiro</span></a></span><br><br><span style=\"color: rgb(23, 75, 40);\"><strong>Website: </strong><span style=\"text-decoration: underline;\"><span style=\"color: rgb(209, 115, 76); text-decoration: underline;\"><a href=\"https://datamint.com.br/\" target=\"_blank\" style=\"color: rgb(209, 115, 76); text-decoration: underline;\" rel=\"noopener\">https://datamint.com.br/</a></span></span></span></p>",
+      "__resolveType": "site/sections/Main/About.tsx"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
