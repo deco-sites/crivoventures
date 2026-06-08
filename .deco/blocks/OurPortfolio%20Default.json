@@ -11,40 +11,49 @@
       "ativarEscalaDeCinza": true
     },
     {
-      "url": "/deco",
-      "image": "https://decoims.com/crivoventures/7627366c-8053-43fc-8ea8-80f1ba4552c5/662f0c3a_662f0c3a-14ec-40ef-9d58-500ba05f1871.png",
-      "label": "Deco",
-      "width": 160,
-      "height": 180,
+      "url": "/datamint",
+      "image": "https://decoims.com/crivoventures/26aec63b-661c-43f0-89e1-db16e2a4fe4a/30ca98a2-a4cd-4022-ba45-82ff7f8244d2.jpg",
+      "label": "datamint",
+      "width": 190.81,
+      "height": 85.98,
       "opacityValue": "!opacity-80",
       "ativarEscalaDeCinza": true
     },
     {
+      "image": "https://decoims.com/crivoventures/7627366c-8053-43fc-8ea8-80f1ba4552c5/662f0c3a_662f0c3a-14ec-40ef-9d58-500ba05f1871.png",
+      "label": "Deco",
+      "width": 160,
+      "height": 180,
+      "url": "/deco",
+      "opacityValue": "!opacity-80",
+      "ativarEscalaDeCinza": true
+    },
+    {
+      "url": "/dinerama",
       "image": "https://decoims.com/crivoventures/b01db091-97ec-4bf4-8881-3ff2665ee988/daed17bd_daed17bd-19fd-43f2-a528-02c0fd7115cd.png",
       "label": "dinerama",
       "width": 241.27,
       "height": 72.03,
-      "url": "/dinerama",
       "opacityValue": "!opacity-90",
       "ativarEscalaDeCinza": true
     },
     {
-      "url": "/inner-ai",
       "image": "https://decoims.com/crivoventures/b6926cff-954b-4e66-be59-3fad9b54ba5a/a5e8fcb2_a5e8fcb2-a9eb-47da-b66f-1c9c38828cbf.jpg",
       "label": "Inner Ai",
       "width": 190.81,
       "height": 107.25,
-      "opacityValue": "!opacity-90",
-      "ativarEscalaDeCinza": true
+      "url": "/inner-ai",
+      "ativarEscalaDeCinza": true,
+      "opacityValue": "!opacity-90"
     },
     {
+      "url": "/lerian",
       "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/crivoventures/256cc06b-ce95-4f45-94ec-de2b5b69a6dd/logos-para-site-(2).png",
       "label": "Lerian",
       "width": 190.81,
       "height": 200,
-      "url": "/lerian",
-      "ativarEscalaDeCinza": true,
-      "opacityValue": "!opacity-80"
+      "opacityValue": "!opacity-80",
+      "ativarEscalaDeCinza": true
     },
     {
       "url": "/liquid",
@@ -58,42 +67,42 @@
       "url": "/nuvia",
       "image": "https://assets.decocache.com/crivoventures/5d99fa0c-9231-41bb-ad55-4113656dea79/nuvia-logo-horizontal-black-(1).png",
       "label": "nuvia",
-      "width": 150,
-      "ativarEscalaDeCinza": true,
+      "opacityValue": "!opacity-30",
       "height": 130,
-      "opacityValue": "!opacity-30"
+      "ativarEscalaDeCinza": true,
+      "width": 150
     },
     {
       "url": "/revi",
       "image": "https://decoims.com/crivoventures/2fdd8449-d7b0-4bb1-8c3c-f2d03ee6ed16/eb5d8e74_eb5d8e74-76c5-4008-badd-b4bce15d4dae.png",
       "label": "Revi",
-      "opacityValue": "!opacity-80",
+      "width": 160,
       "height": 160,
-      "ativarEscalaDeCinza": true,
-      "width": 160
+      "opacityValue": "!opacity-80",
+      "ativarEscalaDeCinza": true
     },
     {
-      "url": "/soutag",
       "image": "https://decoims.com/crivoventures/50e3b1a4-46a4-4755-b561-ec8d87d3a615/cc5f9c8f_cc5f9c8f-17e3-410a-8373-a2c9e9a3941d.png",
-      "label": "Soutag",
       "width": 1500,
       "height": 600,
+      "url": "/soutag",
+      "label": "Soutag",
       "opacityValue": "!opacity-50",
       "ativarEscalaDeCinza": true
     },
     {
+      "opacityValue": "!opacity-80",
       "image": "https://decoims.com/crivoventures/fd4b00e3-38fc-4f78-8757-d7efb6793ee6/c6c0fd32_c6c0fd32-952d-46cc-a70c-e5d99f52cd18.png",
       "width": 140.36,
       "height": 122,
-      "url": "/superautor",
       "label": "superautor",
-      "opacityValue": "!opacity-80"
+      "url": "/superautor"
     },
     {
       "opacityValue": "!opacity-80",
-      "image": "https://decoims.com/crivoventures/1acb9bf0-14cb-4ed0-9cd9-ff22c30ff0b2/8b2653c6_8b2653c6-0567-41f1-b1ee-426f9adf2eb6.png",
       "width": 190.8,
       "height": 63.26,
+      "image": "https://decoims.com/crivoventures/1acb9bf0-14cb-4ed0-9cd9-ff22c30ff0b2/8b2653c6_8b2653c6-0567-41f1-b1ee-426f9adf2eb6.png",
       "label": "zarv",
       "url": "/zarv"
     },
