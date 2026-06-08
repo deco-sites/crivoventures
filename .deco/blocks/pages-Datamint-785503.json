@@ -1,0 +1,46 @@
+{
+  "name": "Datamint",
+  "path": "/datamint",
+  "sections": [
+    {
+      "type": "website",
+      "title": "agroforte — crivo ventures",
+      "favicon": "https://decoims.com/crivoventures/5c2f3ca1-0216-428c-b870-6ab51147053b/b9765b16_b9765b16-9dd5-4247-9358-82ce2160f122.png",
+      "__resolveType": "deco-sites/std/sections/SEO.tsx"
+    },
+    {
+      "__resolveType": "Cookie Default"
+    },
+    {
+      "alt": "logo",
+      "logo": "https://decoims.com/crivoventures/baa10b1b-9246-406e-ae98-fb678bb10f36/123c659f_123c659f-4e8b-4db3-8d19-a1c1e1ff6396.png",
+      "linkLogo": "/",
+      "__resolveType": "site/sections/Header/Header.tsx"
+    },
+    {
+      "link": {
+        "href": "/",
+        "label": "back"
+      },
+      "logo": {
+        "src": "https://decoims.com/crivoventures/b321dd41-244f-410d-9ebe-d933fbe49bd5/3220cc99_3220cc99-345c-4d12-9c4d-3e1149a9c520.png",
+        "label": "agroforte",
+        "width": 238.98,
+        "height": 95.37
+      },
+      "about": "<p><strong><span style=\"color: rgb(23, 75, 40)\">why did we invest in Agroforte?</span></strong></p><p><strong><span style=\"color: rgb(23, 75, 40)\"><br></span></strong></p><p></p><p></p><p><span style=\"color: rgb(23, 75, 40)\">Datamint develops digital transformation solutions for complex industrial environments, combining data analytics, artificial intelligence, data engineering, and UX design to identify business opportunities and elevate the decision-making capacity of its clients. The company is more than a platform: it is a team of engineers and researchers who run the full cycle — from understanding the operational reality on the ground, to engineering the data, to designing the products that turn it into decisions. The output of this process today is consolidated in a flagship platform, A360, but the engine behind it is the combination of people, methodology, and accumulated industrial know-how.</span></p><p><strong><span style=\"color: rgb(23, 75, 40)\"><br></span></strong></p><p></p><p><span style=\"color: rgb(23, 75, 40)\">We believe the market for deep industrial problems in Brazil — the operational complexity inside refineries, power grids, substations, and renewable plants — is structurally underserved. Brazilian SaaS and AI investment has concentrated on horizontal software, fintech, and consumer-adjacent verticals, leaving heavy industry to legacy SCADA vendors, generic ERPs, and consultancies that sell hours rather than systems. Generic LLMs cannot fill this gap: they hallucinate in environments where a single wrong decision carries financial, safety, and compliance consequences.</span></p><p><strong><span style=\"color: rgb(23, 75, 40)\"><br></span></strong></p><p></p><p></p><p><span style=\"color: rgb(23, 75, 40)\">This is not a market that can be cracked with a generic SaaS playbook. It rewards rigorous academic depth, real industrial trust, and the talent density required to translate operator intuition into machine-readable knowledge — and Datamint brings one of the rarest expressions of that profile we have seen in Brazil. Hélio Lopes, PhD in Mathematics, spent 30+ years at PUC-Rio leading the data science and computer graphics labs and has worked side-by-side with Petrobras since 1992. Tulio Ribeiro brings 20+ years of experience scaling Lanx into a leading Brazilian technology services firm. Around them sits a bench of 30 PhDs and Masters from PUC-Rio — a level of talent density that is uncommon in Brazil and essential to durable infrastructure rather than just features.</span></p><p><span style=\"color: rgb(23, 75, 40)\">This team's output is A360, an operational layer above SCADA, ERPs, and OT systems — a System of Action for plant managers, supervisors, and engineers. A360 unifies sensor data, manuals, regulation, and ERP context into a single explicit decision layer, powered by AI agents that operate on top of a domain ontology and continuously learn from every operational cycle. The proprietary MINT methodology and a multi-modal database (graph, time-series, geospatial, and document data) together deliver an architecture purpose-built for environments where hallucinations are not acceptable.</span></p><p><strong><span style=\"color: rgb(23, 75, 40)\"><br></span></strong></p><p></p><p><span style=\"color: rgb(23, 75, 40)\">Datamint applies AI where it creates clear and measurable impact: lower maintenance costs, higher asset uptime, and audit-ready automation of decisions previously trapped in the heads of senior operators. Early customer results — material savings on Petrobras refineries through Smart Tocha and a 5.77% efficiency gain in a solar plant pilot — validate both the ROI and the urgency of the problem.</span></p><p><strong><span style=\"color: rgb(23, 75, 40)\"><br></span></strong></p><p></p><p><span style=\"color: rgb(23, 75, 40)\">We invested in Datamint because companies that turn operator intuition into explicit, auditable, and reusable digital infrastructure in regulated industries can capture disproportionate long-term value. Datamint is well positioned to become a foundational Operational Intelligence layer for critical infrastructure across Latin America and global heavy industry.</span></p>",
+      "image": {
+        "label": "team agroforte",
+        "width": 492.86,
+        "height": 450,
+        "src": "https://decoims.com/crivoventures/c7586b9e-a19c-4527-98de-ac87a2fe1d77/Helio.jpeg"
+      },
+      "details": "<p><strong><span style=\"color: rgb(23, 75, 40)\">Datamint develops digital transformation solutions using data analytics to identify business opportunities and increase the decision-making capabilities.</span></strong></p><p><strong><span style=\"color: rgb(23, 75, 40)\">Founders: </span></strong><span style=\"color: rgb(23, 75, 40)\">Hélio Côrtes, Tulio Ribeiro</span></p><p><strong><span style=\"color: rgb(23, 75, 40)\">Website: </span></strong><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://datamint.com.br/\"><span style=\"color: #d1733f\">https://datamint.com.br/</span></a></p><p><strong><span style=\"color: rgb(23, 75, 40)\">Year of Investiment: </span></strong><span style=\"color: rgb(23, 75, 40)\">2026</span></p>",
+      "__resolveType": "site/sections/Main/About.tsx"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
