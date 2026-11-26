@@ -35,8 +35,22 @@
         "height": 450,
         "src": "https://decoims.com/crivoventures/c7586b9e-a19c-4527-98de-ac87a2fe1d77/Helio.jpeg"
       },
-      "details": "<p><strong><span style=\"color: rgb(23, 75, 40)\">Datamint develops digital transformation solutions using data analytics to identify business opportunities and increase the decision-making capabilities.</span></strong></p><p><strong><span style=\"color: rgb(23, 75, 40)\">Founders: </span></strong><span style=\"color: rgb(23, 75, 40)\">Hélio Côrtes, Tulio Ribeiro</span></p><p><strong><span style=\"color: rgb(23, 75, 40)\">Website: </span></strong><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://datamint.com.br/\"><span style=\"color: #d1733f\">https://datamint.com.br/</span></a></p><p><strong><span style=\"color: rgb(23, 75, 40)\">Year of Investiment: </span></strong><span style=\"color: rgb(23, 75, 40)\">2026</span></p>",
-      "__resolveType": "site/sections/Main/About.tsx"
+      "details": "<p><strong><span style=\"color: rgb(23, 75, 40)\">Datamint develops digital transformation solutions using data analytics to identify business opportunities and increase the decision-making capabilities.</span></strong></p><p><strong><span style=\"color: rgb(23, 75, 40)\">Founders: </span></strong><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://www.linkedin.com/in/helio-cortes-vieira-lopes/\"><span style=\"color: rgb(23, 75, 40)\">Hélio Côrtes</span></a><span style=\"color: rgb(23, 75, 40)\">, </span><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://www.linkedin.com/in/-tulioribeiro-/\"><span style=\"color: rgb(23, 75, 40)\">Tulio Ribeiro</span></a></p><p><strong><span style=\"color: rgb(23, 75, 40)\">Website: </span></strong><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://datamint.com.br/\"><span style=\"color: #d1733f\">https://datamint.com.br/</span></a></p><p><strong><span style=\"color: rgb(23, 75, 40)\">Year of Investiment: </span></strong><span style=\"color: rgb(23, 75, 40)\">2026</span></p>",
+      "__resolveType": "site/sections/Main/About.tsx",
+      "images": [
+        {
+          "src": "https://decoims.com/crivoventures/2026/11/3394b13b-eea1-46a2-ae84-f27079376cf4-helio-datamint.jpg",
+          "label": "Hélio Lopes",
+          "width": 300,
+          "height": 300
+        },
+        {
+          "src": "https://decoims.com/crivoventures/2026/11/e0146227-ace8-43c2-9cf6-3341d0f5c1a3-tulio-datamint.jpg",
+          "label": "Tulio Ribeiro",
+          "width": 300,
+          "height": 300
+        }
+      ]
     }
   ],
   "seo": {

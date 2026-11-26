@@ -16,6 +16,13 @@ export interface Props {
     height: number;
     label?: string;
   };
+  /** @description Fotos exibidas lado a lado no lugar da imagem acima */
+  images?: {
+    src: LiveImage;
+    width: number;
+    height: number;
+    label?: string;
+  }[];
   details: HTML;
   about: HTML;
   link: {
@@ -25,7 +32,7 @@ export interface Props {
 }
 
 export default function About(props: Props) {
-  const { logo, image, details, about, link } = props;
+  const { logo, image, images, details, about, link } = props;
   return (
     <div class="max-w-[1098.69px] mx-auto flex flex-col pt-[94.73px]">
       <div class="flex flex-col lg:mt-[50px] md:mt-[105px] mt-[30px]">
@@ -45,6 +52,23 @@ export default function About(props: Props) {
               class="md:text-[18px] text-[15.7691px] md:pt-[30px] pt-[40px] md:pb-0 pb-[20px] leading-[1.8em] underline-offset-[0.2em] gap-[15px] flex flex-col"
             />
           </div>
+          {images?.length
+            ? (
+              <div class="md:w-1/2 lg:px-0 md:pr-[50px] px-[20px] grid grid-cols-2 gap-[20px] content-center">
+                {images.map((img) => (
+                  <figure>
+                    <Image
+                      src={img.src}
+                      class="object-cover w-full aspect-square"
+                      width={img.width}
+                      height={img.height}
+                      alt={img.label}
+                    />
+                  </figure>
+                ))}
+              </div>
+            )
+            : (
           <figure
             class={`md:w-1/2 md:mb-0 lg:px-0 md:pr-[50px] px-0 ${
               !image?.src && "lg:h-[578px]"
@@ -60,6 +84,7 @@ export default function About(props: Props) {
               />
             )}
           </figure>
+            )}
         </div>
         <hr class="bg-[#174b28] h-[4px] my-[9px] lg:mx-0 md:mx-[50px] mx-[20px]" />
       </div>
