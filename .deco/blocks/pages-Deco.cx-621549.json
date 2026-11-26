@@ -30,10 +30,10 @@
         "height": 160
       },
       "image": {
-        "src": "https://decoims.com/crivoventures/b7ae5904-42c1-493b-a86c-d8dd15578992/0074a40a_0074a40a-e339-4e93-9b6b-e7f4db87bf96.png",
+        "src": "/images/time-deco.jpg",
         "label": "founders",
-        "width": 492.86,
-        "height": 338.9
+        "width": 1600,
+        "height": 1014
       },
       "newAbout": {
         "title": "why did we invest in Deco?",
@@ -42,12 +42,8 @@
       "newDetails": {
         "founders": [
           {
-            "founderLink": "https://www.linkedin.com/in/guifromrio/",
+            "founderLink": "https://www.linkedin.com/in/vibegui/",
             "founderName": "Guilherme Rodrigues"
-          },
-          {
-            "founderLink": "https://www.linkedin.com/in/lcnjnr/",
-            "founderName": "Luciano Junior"
           },
           {
             "founderName": "Rafael Crespo",
