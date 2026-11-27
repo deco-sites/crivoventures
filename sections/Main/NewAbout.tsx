@@ -73,7 +73,8 @@ export default function newAbout(props: Props) {
                           <a class="cursor-pointer" href={founder.founderLink} target={'_blank'}>
                             {founder.founderName}
                           </a>
-                          {index !== newDetails.founders.length - 1 && ' e '}
+                          {index < newDetails.founders.length - 2 && ', '}
+                          {index === newDetails.founders.length - 2 && ' and '}
                         </>
                       )
                     })}
