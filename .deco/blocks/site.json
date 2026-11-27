@@ -12,6 +12,9 @@
   "routes": [
     {
       "__resolveType": "website/loaders/pages.ts"
+    },
+    {
+      "__resolveType": "website/loaders/redirects.ts"
     }
   ],
   "commerce": {
