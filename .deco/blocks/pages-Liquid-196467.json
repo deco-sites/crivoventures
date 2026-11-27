@@ -4,7 +4,7 @@
   "sections": [
     {
       "type": "website",
-      "title": "lerian — crivo ventures",
+      "title": "liquid — crivo ventures",
       "context": null,
       "favicon": "https://decoims.com/crivoventures/5c2f3ca1-0216-428c-b870-6ab51147053b/b9765b16_b9765b16-9dd5-4247-9358-82ce2160f122.png",
       "__resolveType": "deco-sites/std/sections/SEO.tsx"
@@ -25,7 +25,7 @@
       },
       "logo": {
         "src": "https://decoims.com/crivoventures/2fb9aa41-dc14-48a4-902f-2f9b5d0c56b5/Liquid.png",
-        "label": "lerian",
+        "label": "liquid",
         "width": 240,
         "height": 75
       },
@@ -36,7 +36,7 @@
         "height": 408.48,
         "src": "https://decoims.com/crivoventures/ea375236-3b8b-4601-84a7-03398635093e/Imagem-do-WhatsApp-de-2025-08-20-a(s)-10.41.53_f16c907b.jpg"
       },
-      "details": "<p><strong><span style=\"color: rgb(23, 75, 40)\">Real estate fintech that ensures continuous liquidity in real estate projects. They optimize sales, improve portfolios, and unlock value for developers and CFOs, making access to capital faster&nbsp;and&nbsp;smarter.<br><br>Founders: </span></strong><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://www.linkedin.com/in/yaak/\"><span style=\"color: rgb(23, 75, 40)\">Thiago Yaak</span></a><span style=\"color: rgb(23, 75, 40)\">,</span><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://www.linkedin.com/in/luiza-ribeiro-caram-226024142/\"><span style=\"color: rgb(23, 75, 40)\"> Luiza Caram</span></a><span style=\"color: rgb(23, 75, 40)\"> and </span><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://www.linkedin.com/in/omofato/\"><span style=\"color: rgb(23, 75, 40)\">Odair&nbsp;Mofato</span></a><br><br><strong><span style=\"color: rgb(23, 75, 40)\">Website: </span></strong><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://lerian.studio\"><u><span style=\"color: rgb(209, 115, 76)\">https://beliquid.ai</span></u></a></p>",
+      "details": "<p><strong><span style=\"color: rgb(23, 75, 40)\">Real estate fintech that ensures continuous liquidity in real estate projects. They optimize sales, improve portfolios, and unlock value for developers and CFOs, making access to capital faster&nbsp;and&nbsp;smarter.<br><br>Founders: </span></strong><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://www.linkedin.com/in/yaak/\"><span style=\"color: rgb(23, 75, 40)\">Thiago Yaak</span></a><span style=\"color: rgb(23, 75, 40)\">,</span><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://www.linkedin.com/in/luiza-ribeiro-caram-226024142/\"><span style=\"color: rgb(23, 75, 40)\"> Luiza Caram</span></a><span style=\"color: rgb(23, 75, 40)\"> and </span><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://www.linkedin.com/in/omofato/\"><span style=\"color: rgb(23, 75, 40)\">Odair&nbsp;Mofato</span></a><br><br><strong><span style=\"color: rgb(23, 75, 40)\">Website: </span></strong><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://www.beliquid.ai\"><u><span style=\"color: rgb(209, 115, 76)\">https://beliquid.ai</span></u></a></p>",
       "__resolveType": "site/sections/Main/About.tsx"
     }
   ],
