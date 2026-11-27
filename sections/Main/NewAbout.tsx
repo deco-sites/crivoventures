@@ -80,7 +80,7 @@ export default function newAbout(props: Props) {
                     })}
                 </p>
                 <p>
-                    <strong>website: </strong><a
+                    <strong>Website: </strong><a
                     class="text-[#d1734c]" 
                     target={`${newDetails.websiteLink.external ? "_blank" : "_self"}`}
                     href={newDetails.websiteLink.link}>
