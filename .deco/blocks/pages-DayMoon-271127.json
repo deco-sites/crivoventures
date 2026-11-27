@@ -1,0 +1,69 @@
+{
+  "name": "DayMoon",
+  "path": "/daymoon",
+  "sections": [
+    {
+      "type": "website",
+      "title": "daymoon — crivo ventures",
+      "context": null,
+      "favicon": "https://decoims.com/crivoventures/5c2f3ca1-0216-428c-b870-6ab51147053b/b9765b16_b9765b16-9dd5-4247-9358-82ce2160f122.png",
+      "__resolveType": "deco-sites/std/sections/SEO.tsx",
+      "titleTemplate": "%s",
+      "descriptionTemplate": "%s"
+    },
+    {
+      "__resolveType": "Cookie Default"
+    },
+    {
+      "alt": "logo",
+      "logo": "https://decoims.com/crivoventures/baa10b1b-9246-406e-ae98-fb678bb10f36/123c659f_123c659f-4e8b-4db3-8d19-a1c1e1ff6396.png",
+      "linkLogo": "/",
+      "__resolveType": "site/sections/Header/Header.tsx"
+    },
+    {
+      "link": {
+        "href": "/",
+        "label": "back"
+      },
+      "logo": {
+        "src": "https://decoims.com/crivoventures/2026/11/f6137eac-cd8a-4d0d-a903-05285219fe80-daymoon-logo.png",
+        "label": "daymoon",
+        "width": 240,
+        "height": 56.6
+      },
+      "image": {
+        "src": "https://decoims.com/crivoventures/2026/11/9c2997a7-7f44-4c77-bf79-9e5ac293fb75-time-daymoon.png",
+        "label": "team daymoon",
+        "width": 492.86,
+        "height": 328.57
+      },
+      "newAbout": {
+        "title": "why did we invest in DayMoon?",
+        "content": ""
+      },
+      "newDetails": {
+        "founders": [
+          {
+            "founderName": "Daniel Rozemberg",
+            "founderLink": "https://www.linkedin.com/in/daniel-rozemberg/"
+          },
+          {
+            "founderName": "Gabriel Koziner",
+            "founderLink": "https://www.linkedin.com/in/gabrielkoziner/"
+          }
+        ],
+        "companyInfo": "Phone theft protection service that blocks your phone and banking apps within 30 seconds of a robbery, with 24/7 human support.",
+        "websiteLink": {
+          "link": "https://daymoon.com.br/",
+          "external": true
+        },
+        "yearInvestment": "2026"
+      },
+      "__resolveType": "site/sections/Main/NewAbout.tsx"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

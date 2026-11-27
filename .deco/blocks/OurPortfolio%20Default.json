@@ -20,6 +20,15 @@
       "ativarEscalaDeCinza": true
     },
     {
+      "url": "/daymoon",
+      "image": "https://decoims.com/crivoventures/2026/11/f6137eac-cd8a-4d0d-a903-05285219fe80-daymoon-logo.png",
+      "label": "daymoon",
+      "width": 190.81,
+      "height": 45,
+      "opacityValue": "!opacity-80",
+      "ativarEscalaDeCinza": true
+    },
+    {
       "image": "https://decoims.com/crivoventures/7627366c-8053-43fc-8ea8-80f1ba4552c5/662f0c3a_662f0c3a-14ec-40ef-9d58-500ba05f1871.png",
       "label": "Deco",
       "width": 160,
