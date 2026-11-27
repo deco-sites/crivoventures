@@ -110,20 +110,20 @@
       "ativarEscalaDeCinza": true
     },
     {
-      "opacityValue": "!opacity-80",
-      "width": 190.8,
-      "height": 63.26,
-      "image": "https://decoims.com/crivoventures/1acb9bf0-14cb-4ed0-9cd9-ff22c30ff0b2/8b2653c6_8b2653c6-0567-41f1-b1ee-426f9adf2eb6.png",
+      "opacityValue": "!opacity-30",
+      "width": 190.81,
+      "height": 40.21,
+      "image": "https://decoims.com/crivoventures/2026/11/7ea45af9-5495-4a79-8433-01f04d57982d-logo-zarv-cor.png",
       "label": "zarv",
       "url": "/zarv",
       "ativarEscalaDeCinza": true
     },
     {
-      "opacityValue": "!opacity-90",
-      "width": 130,
-      "height": 120,
+      "opacityValue": "!opacity-50",
+      "width": 190.81,
+      "height": 71.41,
       "ativarEscalaDeCinza": true,
-      "image": "https://decoims.com/crivoventures/14801d81-60da-452a-a683-cfc455185878/985d4530_985d4530-d3c4-453d-8568-85f6c65502d9.png",
+      "image": "https://decoims.com/crivoventures/2026/11/d5d03ee7-1983-4a41-a604-684978179e95-logo-zax-cor.png",
       "label": "zax",
       "url": "/zax"
     }
