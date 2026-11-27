@@ -61,7 +61,8 @@
       "label": "Liquid",
       "width": 150,
       "height": 110,
-      "opacityValue": "!opacity-30"
+      "opacityValue": "!opacity-30",
+      "ativarEscalaDeCinza": true
     },
     {
       "url": "/nuvia",
@@ -96,7 +97,8 @@
       "width": 140.36,
       "height": 122,
       "label": "superautor",
-      "url": "/superautor"
+      "url": "/superautor",
+      "ativarEscalaDeCinza": true
     },
     {
       "opacityValue": "!opacity-80",
@@ -104,7 +106,8 @@
       "height": 63.26,
       "image": "https://decoims.com/crivoventures/1acb9bf0-14cb-4ed0-9cd9-ff22c30ff0b2/8b2653c6_8b2653c6-0567-41f1-b1ee-426f9adf2eb6.png",
       "label": "zarv",
-      "url": "/zarv"
+      "url": "/zarv",
+      "ativarEscalaDeCinza": true
     },
     {
       "opacityValue": "!opacity-80",

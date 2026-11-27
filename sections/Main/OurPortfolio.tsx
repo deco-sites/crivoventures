@@ -32,12 +32,12 @@ export default function OurPortfolio(props: Props) {
         {logo?.map((item) => (
           <a
             href={item.url}
-            class="flex items-center justify-center duration-300 ease-in hover:scale-110"
+            class="group flex items-center justify-center duration-300 ease-in hover:scale-110"
           >
             <figure class="md:w-auto w-full">
               <img 
                 src={item?.image}
-                class={`mx-auto ${item.ativarEscalaDeCinza ? "grayscale" : "grayscale-0"} ${item.opacityValue ? item.opacityValue : ""}`}
+                class={`mx-auto transition duration-300 ease-in group-hover:grayscale-0 group-hover:!opacity-100 ${item.ativarEscalaDeCinza ? "grayscale" : "grayscale-0"} ${item.opacityValue ? item.opacityValue : ""}`}
                 alt={item.label}
                 width={item.width}
                 height={item.height}
